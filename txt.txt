@@ -1,0 +1,11134 @@
+/* Sections */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 80px;
+
+position: absolute;
+width: 1924px;
+height: 8826px;
+left: -2px;
+top: 0px;
+
+
+
+/* Top Nav + Header */
+
+width: 1920px;
+height: 696px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 1920px;
+height: 851px;
+left: 0px;
+top: 1px;
+
+
+
+/* Rectangle 22 */
+
+position: absolute;
+width: 1920px;
+height: 632px;
+left: 0px;
+top: 1px;
+
+/* Theme/Primary */
+background: #FFB30E;
+
+
+/* Rectangle 314 */
+
+position: absolute;
+width: 785px;
+height: 557px;
+left: 0px;
+top: 76px;
+
+background: #C4C4C4;
+
+
+/* Rectangle 20 */
+
+position: absolute;
+width: 1920px;
+height: 620px;
+left: -1px;
+top: 76px;
+
+background: url(Burger.png);
+
+
+/* Header */
+
+position: absolute;
+width: 1920px;
+height: 620px;
+left: 0px;
+top: 76px;
+
+
+
+/* Group 1 1 */
+
+position: absolute;
+width: 1920px;
+height: 661px;
+left: 0px;
+top: 0px;
+
+background: url(Group 1.png);
+
+
+/* Image */
+
+position: absolute;
+width: 604px;
+height: 505px;
+left: 1702px;
+top: 182px;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Shadow */
+
+position: absolute;
+width: 619px;
+height: 612px;
+left: 600px;
+top: 0px;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Ellipse 96 */
+
+position: absolute;
+width: 611px;
+height: 612px;
+left: 592px;
+top: 0px;
+
+background: rgba(196, 196, 196, 0.7);
+mix-blend-mode: multiply;
+filter: blur(40.81px);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Ellipse 97 */
+
+position: absolute;
+width: 539px;
+height: 540px;
+left: 600px;
+top: 11px;
+
+background: radial-gradient(85.93% 85.93% at 50% 50%, rgba(205, 205, 205, 0.8) 0%, rgba(196, 196, 196, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+mix-blend-mode: multiply;
+filter: blur(13.1028px);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Image Base */
+
+position: absolute;
+width: 497.14px;
+height: 497.14px;
+left: 102.51px;
+top: -3.21px;
+
+background: url(Layer 0.png);
+
+
+/* Overlay */
+
+position: absolute;
+width: 497.14px;
+height: 497.14px;
+left: 599.65px;
+top: -3.21px;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Layer 1 */
+
+position: absolute;
+width: 497.14px;
+height: 497.14px;
+left: 599.65px;
+top: -3.21px;
+
+background: url(Layer 0.png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Rectangle 334 */
+
+position: absolute;
+width: 497px;
+height: 497px;
+left: 600px;
+top: -3px;
+
+background: #C9C9C9;
+mix-blend-mode: overlay;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Title + Order Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 856px;
+height: 355.44px;
+left: 220px;
+top: 132px;
+
+
+
+/* Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+
+width: 671px;
+height: 129px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Are you starving? */
+
+width: 671px;
+height: 88px;
+
+/* Headline 1 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 88px;
+line-height: 100%;
+/* identical to box height, or 88px */
+
+/* Theme/White */
+color: #FFFFFF;
+
+/* Object shadow 2 */
+text-shadow: 0px 14px 15px rgba(255, 174, 0, 0.01), 0px 27px 82px rgba(255, 174, 0, 0.28);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Within a few clicks, find meals that are accessible near you */
+
+width: 532px;
+height: 26px;
+
+/* Headline 6 */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+color: #504F4F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Order Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 856px;
+height: 194.44px;
+
+/* Object shadow 1 */
+filter: drop-shadow(0px 5px 10px rgba(255, 174, 0, 0.26)) drop-shadow(0px 20px 40px rgba(255, 174, 0, 0.29));
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Top */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 856px;
+height: 86px;
+
+/* Theme/White */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Tab 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 24px;
+gap: 10px;
+
+width: 148px;
+height: 38px;
+
+background: rgba(241, 114, 40, 0.1);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 23px;
+height: 18px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Warning */
+color: #F17228;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 67px;
+height: 18px;
+
+/* Button Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Warning */
+color: #F17228;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Tab 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 24px;
+gap: 10px;
+
+width: 129px;
+height: 38px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 16px;
+height: 18px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 600 */
+color: #757575;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 55px;
+height: 18px;
+
+/* Button Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 600 */
+color: #757575;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* HR */
+
+width: 856px;
+height: 0.44px;
+
+/* Theme/Gray 200 */
+border: 1px solid #EEEEEE;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Bottom */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 10px;
+
+width: 856px;
+height: 108px;
+
+/* Theme/White */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text Field + Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 808px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text Field */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 7px 0px 8px 16px;
+gap: 12px;
+
+width: 593px;
+height: 49px;
+
+/* Theme/Gray 100 */
+background: #F5F5F5;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Icon */
+
+width: 18px;
+height: 34px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 140%;
+/* identical to box height, or 34px */
+
+color: #FF7474;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 162px;
+height: 25px;
+
+/* Body 1 */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+/* Theme/Gray 500 */
+color: #9E9E9E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 48px;
+gap: 10px;
+
+width: 199px;
+height: 60px;
+
+background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 14px;
+height: 14px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 100%;
+/* identical to box height, or 14px */
+text-align: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 79px;
+height: 18px;
+
+/* Button Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+text-align: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Background */
+
+position: absolute;
+width: 1919px;
+height: 620px;
+left: 0px;
+top: 76px;
+
+mix-blend-mode: darken;
+
+
+/* Top Nav */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 16px 220px;
+gap: 1229px;
+
+position: absolute;
+width: 1920px;
+height: 78px;
+left: 0px;
+top: -2px;
+
+/* Theme/White */
+background: #FFFFFF;
+/* Object shadow 1 */
+box-shadow: 0px 5px 10px rgba(255, 174, 0, 0.26), 0px 20px 40px rgba(255, 174, 0, 0.29);
+
+
+/* Logo */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 11.5px;
+
+margin: 0 auto;
+width: 197px;
+height: 36.77px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Mask Group */
+
+width: 28px;
+height: 29.98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 713 */
+
+position: absolute;
+width: 28px;
+height: 29.98px;
+left: 0px;
+top: 3.4px;
+
+
+
+/* Ellipse 87 */
+
+position: absolute;
+width: 7.25px;
+height: 7.25px;
+left: 1.65px;
+top: 26.12px;
+
+background: #C4C4C4;
+
+
+/* Ellipse 88 */
+
+position: absolute;
+width: 7.25px;
+height: 7.25px;
+left: 19.11px;
+top: 26.12px;
+
+background: #C4C4C4;
+
+
+/* Subtract */
+
+position: absolute;
+width: 28px;
+height: 26.35px;
+left: 0px;
+top: 3.4px;
+
+background: #C4C4C4;
+border-radius: 0.658824px;
+
+
+/* Subtract */
+
+position: absolute;
+width: 28px;
+height: 26.35px;
+left: 0px;
+top: 3.4px;
+
+background: #C4C4C4;
+
+
+/* Rectangle 323 */
+
+position: absolute;
+width: 28px;
+height: 26.35px;
+left: 28px;
+top: 29.75px;
+
+background: #C4C4C4;
+border-radius: 7.90588px;
+transform: rotate(180deg);
+
+
+/* Ellipse 87 (Stroke) */
+
+position: absolute;
+width: 10.54px;
+height: 10.54px;
+left: 0px;
+top: 24.48px;
+
+background: #E5E5E5;
+
+
+/* Ellipse 88 (Stroke) */
+
+position: absolute;
+width: 10.54px;
+height: 10.54px;
+left: 17.46px;
+top: 24.48px;
+
+background: #E5E5E5;
+
+
+/* Rectangle 324 */
+
+position: absolute;
+width: 40.52px;
+height: 1.65px;
+left: -4.61px;
+top: 10.97px;
+
+background: #E5E5E5;
+
+
+/* Rectangle 325 */
+
+position: absolute;
+width: 40.52px;
+height: 1.65px;
+left: -4.61px;
+top: 17.89px;
+
+background: #E5E5E5;
+
+
+/* Rectangle 326 */
+
+position: absolute;
+width: 33.6px;
+height: 10.87px;
+left: -1.65px;
+top: 1.09px;
+
+background: linear-gradient(180deg, #FFD16D 16.5%, #FF7A00 177.49%);
+
+
+/* Rectangle 327 */
+
+position: absolute;
+width: 33.6px;
+height: 16.47px;
+left: -1.65px;
+top: 18.88px;
+
+background: #FFA833;
+
+
+/* Rectangle 328 */
+
+position: absolute;
+width: 33.6px;
+height: 7.25px;
+left: -1.65px;
+top: 11.96px;
+
+/* Theme/Warning */
+background: #F17228;
+border-radius: 3.62353px;
+
+
+/* Rectangle 329 */
+
+position: absolute;
+width: 31.95px;
+height: 7.25px;
+left: -23.06px;
+top: 26.12px;
+
+background: #F58D00;
+
+
+/* Rectangle 330 */
+
+position: absolute;
+width: 31.95px;
+height: 7.25px;
+left: 19.11px;
+top: 26.12px;
+
+background: #F58D00;
+
+
+/* Ellipse 93 */
+
+position: absolute;
+width: 2px;
+height: 1px;
+left: 7px;
+top: 6.1px;
+
+background: #FFFFFF;
+transform: rotate(-20.85deg);
+
+
+/* Ellipse 94 */
+
+position: absolute;
+width: 2px;
+height: 1px;
+left: 13px;
+top: 5.38px;
+
+background: #FFFFFF;
+
+
+/* Ellipse 95 */
+
+position: absolute;
+width: 2px;
+height: 1px;
+left: 18.47px;
+top: 5.38px;
+
+background: #FFFFFF;
+transform: rotate(28.12deg);
+
+
+/* Frame 36 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 272px;
+height: 36.77px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* food */
+
+width: 60.81px;
+height: 36.77px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 31.1102px;
+line-height: 120%;
+/* or 37px */
+letter-spacing: -0.025em;
+
+/* Theme/Warning */
+color: #F17228;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* waGon */
+
+width: 90.5px;
+height: 36.77px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 31.1102px;
+line-height: 120%;
+/* or 37px */
+letter-spacing: -0.02em;
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Deliver Address */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+margin: 0 auto;
+width: 565px;
+height: 25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Deliver to: */
+
+width: 83px;
+height: 18px;
+
+/* Button Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+text-align: center;
+
+/* Theme/Gray 800 */
+color: #424242;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 61 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 9px;
+
+width: 470px;
+height: 25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* map-marker-alt */
+
+width: 14px;
+height: 25px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+text-align: center;
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 63 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 447px;
+height: 25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Current Location */
+
+width: 141px;
+height: 25px;
+
+/* Subtitle 1 */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+text-align: center;
+
+/* Theme/Gray 800 */
+color: #424242;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Mohammadpur Bus Stand, Dhaka */
+
+width: 302px;
+height: 25px;
+
+/* Body 1 Bold */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+text-align: center;
+
+/* Theme/Gray 800 */
+color: #424242;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Search + Login Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 30px;
+
+margin: 0 auto;
+width: 272px;
+height: 46px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 39 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 124px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Search */
+
+width: 18px;
+height: 18px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+text-align: center;
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Search Food */
+
+width: 98px;
+height: 18px;
+
+/* Button Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+text-align: center;
+
+/* Theme/Gray 800 */
+color: #424242;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 29 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 24px;
+gap: 10px;
+
+width: 118px;
+height: 46px;
+
+background: #FFFFFF;
+/* Shadow/1 */
+box-shadow: 0px 5px 10px rgba(255, 174, 0, 0.26), 0px 20px 40px rgba(255, 174, 0, 0.29);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* user */
+
+width: 16px;
+height: 18px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+text-align: center;
+
+/* yellow button */
+background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Login */
+
+width: 44px;
+height: 18px;
+
+/* Button Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+text-align: center;
+
+/* yellow button */
+background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Flash Deals */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 1475.65px;
+height: 415px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Flash Deal Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 356.91px;
+height: 415px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Food Photo */
+
+width: 356.91px;
+height: 301px;
+
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image */
+
+position: absolute;
+width: 357px;
+height: 301px;
+left: 0px;
+top: 0px;
+
+background: url(Frame 40.png);
+
+
+/* Discount */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 18px 11px;
+
+position: absolute;
+width: 140px;
+height: 83px;
+left: 0px;
+top: 219px;
+
+/* Theme/Primary */
+background: #FFB30E;
+border-radius: 0px 32px 0px 0px;
+
+
+/* Number */
+
+width: 73px;
+height: 62px;
+
+/* Headline 2 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 68px;
+line-height: 106%;
+/* or 72px */
+display: flex;
+align-items: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Percentage Symbol */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 31px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* % */
+
+width: 31px;
+height: 32px;
+
+/* Headline 5 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 120%;
+/* or 42px */
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Off */
+
+width: 28px;
+height: 26px;
+
+/* Headline 6 */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Texts + Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 14px;
+
+width: 205px;
+height: 82px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Greys Vage */
+
+width: 106px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Gray 800 */
+color: #424242;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 77 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 16px;
+gap: 10px;
+
+width: 205px;
+height: 42px;
+
+background: rgba(241, 114, 40, 0.2);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 6 Days Remaining */
+
+width: 173px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Warning */
+color: #F17228;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Flash Deal Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 356.91px;
+height: 415px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Food Photo */
+
+width: 356.91px;
+height: 301px;
+
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image */
+
+position: absolute;
+width: 357px;
+height: 301px;
+left: 0px;
+top: 0px;
+
+background: url(Frame 727.png);
+
+
+/* Discount */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 18px 11px;
+
+position: absolute;
+width: 140px;
+height: 83px;
+left: 0px;
+top: 219px;
+
+/* Theme/Primary */
+background: #FFB30E;
+border-radius: 0px 32px 0px 0px;
+
+
+/* Number */
+
+width: 73px;
+height: 62px;
+
+/* Headline 2 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 68px;
+line-height: 106%;
+/* or 72px */
+display: flex;
+align-items: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Percentage Symbol */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 31px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* % */
+
+width: 31px;
+height: 32px;
+
+/* Headline 5 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 120%;
+/* or 42px */
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Off */
+
+width: 28px;
+height: 26px;
+
+/* Headline 6 */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Texts + Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 14px;
+
+width: 205px;
+height: 82px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Greys Vage */
+
+width: 106px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Gray 800 */
+color: #424242;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 77 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 16px;
+gap: 10px;
+
+width: 205px;
+height: 42px;
+
+background: rgba(241, 114, 40, 0.2);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 6 Days Remaining */
+
+width: 173px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Warning */
+color: #F17228;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Flash Deal Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 356.91px;
+height: 415px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Food Photo */
+
+width: 356.91px;
+height: 301px;
+
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image */
+
+position: absolute;
+width: 357px;
+height: 301px;
+left: 0px;
+top: 0px;
+
+background: url(Frame 728.png);
+
+
+/* Discount */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 18px 11px;
+
+position: absolute;
+width: 140px;
+height: 83px;
+left: 0px;
+top: 219px;
+
+/* Theme/Primary */
+background: #FFB30E;
+border-radius: 0px 32px 0px 0px;
+
+
+/* Number */
+
+width: 73px;
+height: 62px;
+
+/* Headline 2 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 68px;
+line-height: 106%;
+/* or 72px */
+display: flex;
+align-items: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Percentage Symbol */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 31px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* % */
+
+width: 31px;
+height: 32px;
+
+/* Headline 5 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 120%;
+/* or 42px */
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Off */
+
+width: 28px;
+height: 26px;
+
+/* Headline 6 */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Texts + Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 14px;
+
+width: 205px;
+height: 82px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Greys Vage */
+
+width: 106px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Gray 800 */
+color: #424242;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 77 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 16px;
+gap: 10px;
+
+width: 205px;
+height: 42px;
+
+background: rgba(241, 114, 40, 0.2);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 6 Days Remaining */
+
+width: 173px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Warning */
+color: #F17228;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Flash Deal Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 356.91px;
+height: 415px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Food Photo */
+
+width: 356.91px;
+height: 301px;
+
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image */
+
+position: absolute;
+width: 357px;
+height: 301px;
+left: 0px;
+top: 0px;
+
+background: url(Frame 729.png);
+
+
+/* Discount */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 18px 11px;
+
+position: absolute;
+width: 140px;
+height: 83px;
+left: 0px;
+top: 219px;
+
+/* Theme/Primary */
+background: #FFB30E;
+border-radius: 0px 32px 0px 0px;
+
+
+/* Number */
+
+width: 73px;
+height: 62px;
+
+/* Headline 2 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 68px;
+line-height: 106%;
+/* or 72px */
+display: flex;
+align-items: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Percentage Symbol */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 31px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* % */
+
+width: 31px;
+height: 32px;
+
+/* Headline 5 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 120%;
+/* or 42px */
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Off */
+
+width: 28px;
+height: 26px;
+
+/* Headline 6 */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Texts + Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 14px;
+
+width: 205px;
+height: 82px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Greys Vage */
+
+width: 106px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Gray 800 */
+color: #424242;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 77 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 16px;
+gap: 10px;
+
+width: 205px;
+height: 42px;
+
+background: rgba(241, 114, 40, 0.2);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 6 Days Remaining */
+
+width: 173px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Warning */
+color: #F17228;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* How Does It Work */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 80px 0px;
+gap: 71px;
+
+width: 1920px;
+height: 518px;
+
+background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Title */
+
+width: 330px;
+height: 48px;
+
+/* Headline 4 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 43px;
+line-height: 112%;
+/* or 48px */
+text-align: center;
+
+color: #F17228;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Features */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+width: 1384px;
+height: 239px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 730 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 41px;
+
+width: 367px;
+height: 239px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 41px;
+
+width: 367px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Menu */
+
+width: 87px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* menu 2 */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 76.29%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Map Marker */
+
+width: 86px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+position: absolute;
+width: 86px;
+height: 112px;
+left: 128px;
+top: 0px;
+
+/* Object shadow 1 */
+filter: drop-shadow(0px 5px 10px rgba(255, 174, 0, 0.26)) drop-shadow(0px 20px 40px rgba(255, 174, 0, 0.29));
+
+
+/* Group */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Gradient/4 */
+background: linear-gradient(180deg, #FFAE00 69.96%, #FFCD1E 133.44%);
+
+
+/* Vector */
+
+position: absolute;
+left: 23.26%;
+right: 23.26%;
+top: 17.86%;
+bottom: 41.07%;
+
+/* Theme/White */
+background: #FFFFFF;
+
+
+/* Invoice */
+
+display: none;
+width: 72.19px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 69.48%;
+right: 10.85%;
+top: 0%;
+bottom: 0%;
+
+/* Gradient/4 */
+background: linear-gradient(180deg, #FFAE00 69.96%, #FFCD1E 133.44%);
+border-radius: 74px;
+
+
+/* Group */
+
+position: absolute;
+left: 73.06%;
+right: 14.42%;
+top: 13.94%;
+bottom: 21.6%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 73.06%;
+right: 14.42%;
+top: 13.94%;
+bottom: 21.6%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 73.06%;
+right: 14.42%;
+top: 13.94%;
+bottom: 21.6%;
+
+/* Theme/White */
+background: #FFFFFF;
+
+
+/* Donut */
+
+width: 112px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* donut 1 */
+
+position: absolute;
+visibility: hidden;
+left: 69.48%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Texts */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 307px;
+height: 86px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Title */
+
+width: 307px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+text-align: center;
+
+color: #434343;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Body */
+
+width: 307px;
+height: 50px;
+
+/* Body 1 */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+text-align: center;
+
+/* Theme/Gray 500 */
+color: #9E9E9E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 731 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 41px;
+
+width: 307px;
+height: 239px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 41px;
+
+width: 87px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Menu */
+
+width: 87px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* menu 2 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Object shadow 1 */
+filter: drop-shadow(0px 5px 10px rgba(255, 174, 0, 0.26)) drop-shadow(0px 20px 40px rgba(255, 174, 0, 0.29));
+
+
+/* Rectangle 332 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Gradient/4 */
+background: linear-gradient(180deg, #FFAE00 69.96%, #FFCD1E 133.44%);
+border-radius: 17px;
+
+
+/* Group */
+
+position: absolute;
+left: 21.78%;
+right: 20.79%;
+top: 21.54%;
+bottom: 27.69%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 21.78%;
+right: 20.79%;
+top: 21.54%;
+bottom: 27.69%;
+
+/* Theme/White */
+background: #FFFFFF;
+
+
+/* Map Marker */
+
+display: none;
+width: 86px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+position: absolute;
+visibility: hidden;
+width: 86px;
+height: 112px;
+left: 128px;
+top: 0px;
+
+
+
+/* Invoice */
+
+display: none;
+width: 72.19px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 293.1%;
+right: -276.08%;
+top: 0%;
+bottom: 0%;
+
+/* Gradient/4 */
+background: linear-gradient(180deg, #FFAE00 69.96%, #FFCD1E 133.44%);
+border-radius: 74px;
+
+
+/* Group */
+
+position: absolute;
+left: 308.19%;
+right: -260.99%;
+top: 13.94%;
+bottom: 21.6%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 308.19%;
+right: -260.99%;
+top: 13.94%;
+bottom: 21.6%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 308.19%;
+right: -260.99%;
+top: 13.94%;
+bottom: 21.6%;
+
+/* Theme/White */
+background: #FFFFFF;
+
+
+/* Donut */
+
+display: none;
+width: 112px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* donut 1 */
+
+position: absolute;
+visibility: hidden;
+left: 423.2%;
+right: -451.94%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Texts */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 307px;
+height: 86px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Title */
+
+width: 307px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+text-align: center;
+
+color: #434343;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Body */
+
+width: 307px;
+height: 50px;
+
+/* Body 1 */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+text-align: center;
+
+/* Theme/Gray 500 */
+color: #9E9E9E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 732 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 41px;
+
+width: 307px;
+height: 239px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Icons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 41px;
+
+width: 72.19px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Menu */
+
+display: none;
+width: 87px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* menu 2 */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: -20.52%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Map Marker */
+
+display: none;
+width: 86px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+position: absolute;
+visibility: hidden;
+width: 86px;
+height: 112px;
+left: 128px;
+top: 0px;
+
+
+
+/* Invoice */
+
+width: 72.19px;
+height: 112px;
+
+/* Object shadow 1 */
+filter: drop-shadow(0px 5px 10px rgba(255, 174, 0, 0.26)) drop-shadow(0px 20px 40px rgba(255, 174, 0, 0.29));
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Gradient/4 */
+background: linear-gradient(180deg, #FFAE00 69.96%, #FFCD1E 133.44%);
+border-radius: 74px;
+
+
+/* Group */
+
+position: absolute;
+left: 18.18%;
+right: 18.18%;
+top: 13.94%;
+bottom: 21.6%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 18.18%;
+right: 18.18%;
+top: 13.94%;
+bottom: 21.6%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 18.18%;
+right: 18.18%;
+top: 13.94%;
+bottom: 21.6%;
+
+/* Theme/White */
+background: #FFFFFF;
+
+
+/* Donut */
+
+display: none;
+width: 112px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* donut 1 */
+
+position: absolute;
+visibility: hidden;
+left: 510.04%;
+right: -565.19%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Texts */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 307px;
+height: 86px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Title */
+
+width: 307px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+text-align: center;
+
+color: #434343;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Body */
+
+width: 307px;
+height: 50px;
+
+/* Body 1 */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+text-align: center;
+
+/* Theme/Gray 500 */
+color: #9E9E9E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 733 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 41px;
+
+width: 307px;
+height: 239px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Icons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 41px;
+
+width: 112px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Menu */
+
+display: none;
+width: 87px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* menu 2 */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 22.32%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Map Marker */
+
+display: none;
+width: 86px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+position: absolute;
+visibility: hidden;
+width: 86px;
+height: 112px;
+left: 128px;
+top: 0px;
+
+
+
+/* Invoice */
+
+display: none;
+width: 72.19px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 227.68%;
+right: -192.13%;
+top: 0%;
+bottom: 0%;
+
+/* Gradient/4 */
+background: linear-gradient(180deg, #FFAE00 69.96%, #FFCD1E 133.44%);
+border-radius: 74px;
+
+
+/* Group */
+
+position: absolute;
+left: 239.4%;
+right: -180.41%;
+top: 13.94%;
+bottom: 21.6%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 239.4%;
+right: -180.41%;
+top: 13.94%;
+bottom: 21.6%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 239.4%;
+right: -180.41%;
+top: 13.94%;
+bottom: 21.6%;
+
+/* Theme/White */
+background: #FFFFFF;
+
+
+/* Donut */
+
+width: 112px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* donut 1 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Shadow/1 */
+filter: drop-shadow(0px 5px 10px rgba(255, 174, 0, 0.26)) drop-shadow(0px 20px 40px rgba(255, 174, 0, 0.29));
+
+
+/* Group */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 2.93%;
+
+background: linear-gradient(180deg, #FFAE00 -38.22%, #FFCD1E 133.44%);
+
+
+/* Group */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 2.93%;
+
+/* Gradient/4 */
+background: linear-gradient(180deg, #FFAE00 69.96%, #FFCD1E 133.44%);
+
+
+/* Group */
+
+position: absolute;
+left: 11.91%;
+right: 11.91%;
+top: 17.63%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 11.91%;
+right: 11.91%;
+top: 17.63%;
+bottom: 0%;
+
+background: #FFFFFF;
+
+
+/* Texts */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 307px;
+height: 86px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Title */
+
+width: 307px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+text-align: center;
+
+color: #434343;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Body */
+
+width: 307px;
+height: 50px;
+
+/* Body 1 */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+text-align: center;
+
+/* Theme/Gray 500 */
+color: #9E9E9E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Popular Items */
+
+width: 1924px;
+height: 605px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Title + Cards */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 88px;
+
+position: absolute;
+width: 1481px;
+height: 605px;
+left: 221px;
+top: 0px;
+
+
+
+/* Title */
+
+width: 266px;
+height: 48px;
+
+/* Headline 4 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 43px;
+line-height: 112%;
+/* or 48px */
+text-align: center;
+
+/* Theme/Gray 900 */
+color: #212121;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Cards */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 1481px;
+height: 469px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 283.4px;
+height: 469px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Image + Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 283.4px;
+height: 393px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 40 */
+
+width: 283.4px;
+height: 283px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rectangle 336 */
+
+position: absolute;
+height: 283px;
+left: 0%;
+right: 0.21%;
+top: 0px;
+
+background: url(Frame 40-4.png);
+
+
+/* Name + Location + Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 283.4px;
+height: 94px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Name + Location */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 142px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 141px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Gray 800 */
+color: #424242;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Location */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 142px;
+height: 26px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 14px;
+height: 22px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 120px;
+height: 26px;
+
+/* Headline 6 */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 54px;
+height: 26px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* $3.88 */
+
+width: 54px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Gray 900 */
+color: #212121;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 48px;
+gap: 10px;
+
+width: 283.4px;
+height: 60px;
+
+/* Theme/Warning */
+background: #F17228;
+/* Shadow/2 */
+box-shadow: 0px 5px 10px rgba(253, 114, 92, 0.22), 0px 20px 40px rgba(250, 99, 35, 0.24);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 87px;
+height: 18px;
+
+/* Button Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+text-align: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 283.4px;
+height: 469px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Image + Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 283.4px;
+height: 393px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 40 */
+
+width: 283.4px;
+height: 283px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rectangle 336 */
+
+position: absolute;
+height: 283px;
+left: 0%;
+right: 0.21%;
+top: 0px;
+
+background: url(Frame 40.png);
+
+
+/* Name + Location + Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 283.4px;
+height: 94px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Name + Location */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 117px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 117px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Gray 800 */
+color: #424242;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Location */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 116px;
+height: 26px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 14px;
+height: 22px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 94px;
+height: 26px;
+
+/* Headline 6 */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 54px;
+height: 26px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* $3.88 */
+
+width: 54px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Gray 900 */
+color: #212121;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 48px;
+gap: 10px;
+
+width: 283.4px;
+height: 60px;
+
+/* Theme/Warning */
+background: #F17228;
+/* Shadow/2 */
+box-shadow: 0px 5px 10px rgba(253, 114, 92, 0.22), 0px 20px 40px rgba(250, 99, 35, 0.24);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 87px;
+height: 18px;
+
+/* Button Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+text-align: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 283.4px;
+height: 469px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Image + Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 283.4px;
+height: 393px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 40 */
+
+width: 283.4px;
+height: 283px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rectangle 336 */
+
+position: absolute;
+height: 283px;
+left: 0%;
+right: 0.21%;
+top: 0px;
+
+background: url(Frame 40-1.png);
+
+
+/* Name + Location + Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 283.4px;
+height: 94px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Name + Location */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 127px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 84px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Gray 800 */
+color: #424242;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Location */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 127px;
+height: 26px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 14px;
+height: 22px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 105px;
+height: 26px;
+
+/* Headline 6 */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 54px;
+height: 26px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* $3.88 */
+
+width: 54px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Gray 900 */
+color: #212121;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 48px;
+gap: 10px;
+
+width: 283.4px;
+height: 60px;
+
+/* Theme/Warning */
+background: #F17228;
+/* Shadow/2 */
+box-shadow: 0px 5px 10px rgba(253, 114, 92, 0.22), 0px 20px 40px rgba(250, 99, 35, 0.24);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 87px;
+height: 18px;
+
+/* Button Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+text-align: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 283.4px;
+height: 469px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+
+/* Image + Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 283.4px;
+height: 393px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 40 */
+
+width: 283.4px;
+height: 283px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rectangle 336 */
+
+position: absolute;
+height: 283px;
+left: 0%;
+right: 0.21%;
+top: 0px;
+
+background: url(Frame 40-2.png);
+
+
+/* Name + Location + Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 283.4px;
+height: 94px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Name + Location */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 170px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 170px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Gray 800 */
+color: #424242;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Location */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 148px;
+height: 26px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 14px;
+height: 22px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 126px;
+height: 26px;
+
+/* Headline 6 */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 54px;
+height: 26px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* $3.88 */
+
+width: 54px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Gray 900 */
+color: #212121;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 48px;
+gap: 10px;
+
+width: 283.4px;
+height: 60px;
+
+/* Theme/Warning */
+background: #F17228;
+/* Shadow/2 */
+box-shadow: 0px 5px 10px rgba(253, 114, 92, 0.22), 0px 20px 40px rgba(250, 99, 35, 0.24);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 87px;
+height: 18px;
+
+/* Button Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+text-align: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 5 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 283.4px;
+height: 469px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 1;
+
+
+/* Image + Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 283.4px;
+height: 393px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 40 */
+
+width: 283.4px;
+height: 283px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rectangle 336 */
+
+position: absolute;
+height: 283px;
+left: 0%;
+right: 0.21%;
+top: 0px;
+
+background: url(Frame 40-3.png);
+
+
+/* Name + Location + Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 283.4px;
+height: 94px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Name + Location */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 125px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 102px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Gray 800 */
+color: #424242;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Location */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 125px;
+height: 26px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 14px;
+height: 22px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 103px;
+height: 26px;
+
+/* Headline 6 */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 54px;
+height: 26px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* $3.88 */
+
+width: 54px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Gray 900 */
+color: #212121;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 48px;
+gap: 10px;
+
+width: 283.4px;
+height: 60px;
+
+/* Theme/Warning */
+background: #F17228;
+/* Shadow/2 */
+box-shadow: 0px 5px 10px rgba(253, 114, 92, 0.22), 0px 20px 40px rgba(250, 99, 35, 0.24);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 87px;
+height: 18px;
+
+/* Button Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+text-align: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Slider Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 1504px;
+
+position: absolute;
+width: 1724px;
+height: 76px;
+left: 99px;
+top: 256px;
+
+
+
+/* Arrow Left */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px 9px 10px 11px;
+gap: 10px;
+
+margin: 0 auto;
+width: 76px;
+height: 76px;
+
+background: #FFB20E;
+border: 1px solid #FAAA01;
+/* Button shadow ! */
+box-shadow: 0px 5px 8px rgba(222, 151, 0, 0.24), 0px 14px 32px rgba(255, 178, 14, 0.29);
+border-radius: 92px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 56px;
+height: 56px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 33px;
+line-height: 120%;
+/* or 40px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Arrow Right */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px 9px 10px 11px;
+gap: 10px;
+
+margin: 0 auto;
+width: 76px;
+height: 76px;
+
+background: #FFB20E;
+border: 1px solid #FAAA01;
+/* Button shadow ! */
+box-shadow: 0px 5px 8px rgba(222, 151, 0, 0.24), 0px 14px 32px rgba(255, 178, 14, 0.29);
+border-radius: 92px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 56px;
+height: 56px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 33px;
+line-height: 120%;
+/* or 40px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Featured Restaurant */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 88px;
+
+width: 1476px;
+height: 1274px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Title */
+
+width: 410px;
+height: 48px;
+
+/* Headline 4 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 43px;
+line-height: 112%;
+/* or 48px */
+text-align: center;
+
+/* Theme/Gray 900 */
+color: #212121;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Cards */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 64px;
+
+width: 1476px;
+height: 990px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Top */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 1476px;
+height: 463px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 357px;
+height: 463px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Food Photo */
+
+width: 357px;
+height: 301px;
+
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image */
+
+position: absolute;
+width: 357px;
+height: 301px;
+left: 0px;
+top: 0px;
+
+background: url(Frame 727.png);
+
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 243px;
+height: 42px;
+left: 24px;
+top: 24px;
+
+
+
+/* Discount */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+
+width: 134px;
+height: 42px;
+
+background: #F17228;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 18px;
+height: 22px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+display: flex;
+align-items: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 74px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Fast */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+
+width: 101px;
+height: 42px;
+
+/* Theme/Primary */
+background: #FFB30E;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 18px;
+height: 22px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+display: flex;
+align-items: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 41px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Image + Name + Review + Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 197px;
+height: 138px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Image + Name + Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 194px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Restaruant Logo */
+
+width: 64px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(Frame 461.png);
+
+
+/* Name + Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 106px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 106px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Gray 800 */
+color: #424242;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 55px;
+height: 26px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 25px;
+height: 23px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 22px;
+line-height: 106%;
+/* or 23px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 22px;
+height: 26px;
+
+/* Headline 6 */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 16px;
+gap: 10px;
+
+width: 197px;
+height: 42px;
+
+background: rgba(241, 114, 40, 0.2);
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 165px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Warning */
+color: #F17228;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 357px;
+height: 463px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Food Photo */
+
+width: 357px;
+height: 301px;
+
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image */
+
+position: absolute;
+width: 357px;
+height: 301px;
+left: 0px;
+top: 0px;
+
+background: url(Frame 728.png);
+
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 243px;
+height: 42px;
+left: 24px;
+top: 24px;
+
+
+
+/* Discount */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+
+width: 134px;
+height: 42px;
+
+background: #F17228;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 18px;
+height: 22px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+display: flex;
+align-items: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 74px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Fast */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+
+width: 101px;
+height: 42px;
+
+/* Theme/Primary */
+background: #FFB30E;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 18px;
+height: 22px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+display: flex;
+align-items: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 41px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Image + Name + Review + Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 197px;
+height: 138px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Image + Name + Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 178px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Restaruant Logo */
+
+width: 64px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(Frame 456.png);
+
+
+/* Name + Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 90px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 90px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Gray 800 */
+color: #424242;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 55px;
+height: 26px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 25px;
+height: 23px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 22px;
+line-height: 106%;
+/* or 23px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 22px;
+height: 26px;
+
+/* Headline 6 */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 16px;
+gap: 10px;
+
+width: 197px;
+height: 42px;
+
+background: rgba(241, 114, 40, 0.2);
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 165px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Warning */
+color: #F17228;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 357px;
+height: 463px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Food Photo */
+
+width: 357px;
+height: 301px;
+
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image */
+
+position: absolute;
+width: 357px;
+height: 301px;
+left: 0px;
+top: 0px;
+
+background: url(Frame 729.png);
+
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 243px;
+height: 42px;
+left: 24px;
+top: 24px;
+
+
+
+/* Discount */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+
+width: 134px;
+height: 42px;
+
+background: #F17228;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 18px;
+height: 22px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+display: flex;
+align-items: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 74px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Fast */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+
+width: 101px;
+height: 42px;
+
+/* Theme/Primary */
+background: #FFB30E;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 18px;
+height: 22px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+display: flex;
+align-items: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 41px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Image + Name + Review + Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 196px;
+height: 138px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Image + Name + Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 196px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Restaruant Logo */
+
+width: 64px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(Frame 460.png);
+
+
+/* Name + Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 108px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 108px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Gray 800 */
+color: #424242;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 55px;
+height: 26px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 25px;
+height: 23px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 22px;
+line-height: 106%;
+/* or 23px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 22px;
+height: 26px;
+
+/* Headline 6 */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 16px;
+gap: 10px;
+
+width: 133px;
+height: 42px;
+
+background: rgba(121, 185, 60, 0.2);
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 101px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Success */
+color: #79B93C;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 357px;
+height: 463px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Food Photo */
+
+width: 357px;
+height: 301px;
+
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image */
+
+position: absolute;
+width: 357px;
+height: 301px;
+left: 0px;
+top: 0px;
+
+background: url(Frame 730.png);
+
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 243px;
+height: 42px;
+left: 24px;
+top: 24px;
+
+
+
+/* Discount */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+
+width: 134px;
+height: 42px;
+
+background: #F17228;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 18px;
+height: 22px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+display: flex;
+align-items: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 74px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Fast */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+
+width: 101px;
+height: 42px;
+
+/* Theme/Primary */
+background: #FFB30E;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 18px;
+height: 22px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+display: flex;
+align-items: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 41px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Image + Name + Review + Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 196px;
+height: 138px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Image + Name + Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 196px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Restaruant Logo */
+
+width: 64px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(Frame 461-1.png);
+
+
+/* Name + Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 108px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 108px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Gray 800 */
+color: #424242;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 55px;
+height: 26px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 25px;
+height: 23px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 22px;
+line-height: 106%;
+/* or 23px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 22px;
+height: 26px;
+
+/* Headline 6 */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 16px;
+gap: 10px;
+
+width: 133px;
+height: 42px;
+
+background: rgba(121, 185, 60, 0.2);
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 101px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Success */
+color: #79B93C;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Bottom */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 1476px;
+height: 463px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 5 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 357px;
+height: 463px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Food Photo */
+
+width: 357px;
+height: 301px;
+
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image */
+
+position: absolute;
+width: 357px;
+height: 301px;
+left: 0px;
+top: 0px;
+
+background: url(Frame 40.png);
+
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 243px;
+height: 42px;
+left: 24px;
+top: 24px;
+
+
+
+/* Discount */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+
+width: 134px;
+height: 42px;
+
+background: #F17228;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 18px;
+height: 22px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+display: flex;
+align-items: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 74px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Fast */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+
+width: 101px;
+height: 42px;
+
+/* Theme/Primary */
+background: #FFB30E;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 18px;
+height: 22px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+display: flex;
+align-items: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 41px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Image + Name + Review + Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 224px;
+height: 138px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Image + Name + Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 224px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Restaruant Logo */
+
+width: 64px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(Frame 458.png);
+
+
+/* Name + Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 136px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 136px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Gray 800 */
+color: #424242;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 55px;
+height: 26px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 25px;
+height: 23px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 22px;
+line-height: 106%;
+/* or 23px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 22px;
+height: 26px;
+
+/* Headline 6 */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 16px;
+gap: 10px;
+
+width: 133px;
+height: 42px;
+
+background: rgba(121, 185, 60, 0.2);
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 101px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Success */
+color: #79B93C;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 6 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 357px;
+height: 463px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Food Photo */
+
+width: 357px;
+height: 301px;
+
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image */
+
+position: absolute;
+width: 357px;
+height: 301px;
+left: 0px;
+top: 0px;
+
+background: url(Frame 731.png);
+
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 243px;
+height: 42px;
+left: 24px;
+top: 24px;
+
+
+
+/* Discount */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+
+width: 134px;
+height: 42px;
+
+background: #F17228;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 18px;
+height: 22px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+display: flex;
+align-items: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 74px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Fast */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+
+width: 101px;
+height: 42px;
+
+/* Theme/Primary */
+background: #FFB30E;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 18px;
+height: 22px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+display: flex;
+align-items: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 41px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Image + Name + Review + Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 306px;
+height: 138px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Image + Name + Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 306px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Restaruant Logo */
+
+width: 64px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(Frame 459.png);
+
+
+/* Name + Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 218px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 218px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Gray 800 */
+color: #424242;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 55px;
+height: 26px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 25px;
+height: 23px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 22px;
+line-height: 106%;
+/* or 23px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 22px;
+height: 26px;
+
+/* Headline 6 */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 16px;
+gap: 10px;
+
+width: 133px;
+height: 42px;
+
+background: rgba(121, 185, 60, 0.2);
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 101px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Success */
+color: #79B93C;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 7 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 357px;
+height: 463px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Food Photo */
+
+width: 357px;
+height: 301px;
+
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image */
+
+position: absolute;
+width: 357px;
+height: 301px;
+left: 0px;
+top: 0px;
+
+background: url(Frame 732.png);
+
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 243px;
+height: 42px;
+left: 24px;
+top: 24px;
+
+
+
+/* Discount */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+
+width: 134px;
+height: 42px;
+
+background: #F17228;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 18px;
+height: 22px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+display: flex;
+align-items: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 74px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Fast */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+
+width: 101px;
+height: 42px;
+
+/* Theme/Primary */
+background: #FFB30E;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 18px;
+height: 22px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+display: flex;
+align-items: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 41px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Image + Name + Review + Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 200px;
+height: 138px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Image + Name + Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 200px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Restaruant Logo */
+
+width: 64px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(Frame 457.png);
+
+
+/* Name + Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 112px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 112px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Gray 800 */
+color: #424242;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 55px;
+height: 26px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 25px;
+height: 23px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 22px;
+line-height: 106%;
+/* or 23px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 22px;
+height: 26px;
+
+/* Headline 6 */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 16px;
+gap: 10px;
+
+width: 133px;
+height: 42px;
+
+background: rgba(121, 185, 60, 0.2);
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 101px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Success */
+color: #79B93C;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 8 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 357px;
+height: 463px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Food Photo */
+
+width: 357px;
+height: 301px;
+
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image */
+
+position: absolute;
+width: 357px;
+height: 301px;
+left: 0px;
+top: 0px;
+
+background: url(Frame 87.png);
+
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 243px;
+height: 42px;
+left: 24px;
+top: 24px;
+
+
+
+/* Discount */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+
+width: 134px;
+height: 42px;
+
+background: #F17228;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 18px;
+height: 22px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+display: flex;
+align-items: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 74px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Fast */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+
+width: 101px;
+height: 42px;
+
+/* Theme/Primary */
+background: #FFB30E;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 18px;
+height: 22px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+display: flex;
+align-items: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 41px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Image + Name + Review + Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 175px;
+height: 138px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Image + Name + Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 175px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Restaruant Logo */
+
+width: 64px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(Frame 458-1.png);
+
+
+/* Name + Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 87px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 87px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Gray 800 */
+color: #424242;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Review */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 55px;
+height: 26px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 25px;
+height: 23px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 22px;
+line-height: 106%;
+/* or 23px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 22px;
+height: 26px;
+
+/* Headline 6 */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Primary */
+color: #FFB30E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 16px;
+gap: 10px;
+
+width: 133px;
+height: 42px;
+
+background: rgba(121, 185, 60, 0.2);
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 101px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+/* Theme/Success */
+color: #79B93C;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 48px;
+gap: 10px;
+
+width: 178px;
+height: 60px;
+
+background: linear-gradient(97.86deg, #FFBA26 -8.95%, #FF9A0E 109.24%);
+/* Shadow/1 */
+box-shadow: 0px 5px 10px rgba(255, 174, 0, 0.26), 0px 20px 40px rgba(255, 174, 0, 0.29);
+border-radius: 14px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 63px;
+height: 18px;
+
+/* Button Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+text-align: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 9px;
+height: 14px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 100%;
+/* identical to box height, or 14px */
+text-align: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Details */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 80px;
+
+width: 1480px;
+height: 1806px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* Details Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 1480px;
+height: 512px;
+
+/* Shadow 2 */
+filter: drop-shadow(0px 14px 15px rgba(124, 124, 124, 0.06)) drop-shadow(0px 27px 82px rgba(124, 124, 124, 0.28));
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Left */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 56px;
+gap: 48px;
+
+width: 519px;
+height: 512px;
+
+/* Theme/White */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 19px;
+
+width: 407px;
+height: 292px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Title */
+
+width: 407px;
+height: 96px;
+
+/* Headline 4 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 43px;
+line-height: 112%;
+/* or 48px */
+
+color: #353535;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Body */
+
+width: 407px;
+height: 50px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: rgba(97, 97, 97, 0.69);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 48px;
+gap: 10px;
+
+width: 407px;
+height: 60px;
+
+/* yellow button */
+background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+/* Button shadow ! */
+box-shadow: 0px 5px 8px rgba(222, 151, 0, 0.24), 0px 14px 32px rgba(255, 178, 14, 0.29);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Proceed to order */
+
+width: 163px;
+height: 18px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* CHEVRON-RIGHT */
+
+width: 10px;
+height: 16px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 100%;
+/* identical to box height, or 16px */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Right */
+
+width: 961px;
+height: 512px;
+
+background: url(.jpg);
+border-radius: 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Image */
+
+position: absolute;
+width: 961px;
+height: 512px;
+left: 0px;
+top: 0px;
+
+background: url(Frame 739.png);
+
+
+/* Details Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 1480px;
+height: 512px;
+
+/* Shadow 2 */
+filter: drop-shadow(0px 14px 15px rgba(124, 124, 124, 0.06)) drop-shadow(0px 27px 82px rgba(124, 124, 124, 0.28));
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Right */
+
+width: 961px;
+height: 512px;
+
+background: url(.jpg);
+border-radius: 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image */
+
+position: absolute;
+width: 961px;
+height: 512px;
+left: 0px;
+top: 0px;
+
+background: url(Frame 740.png);
+
+
+/* Left */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 56px;
+gap: 48px;
+
+width: 519px;
+height: 512px;
+
+/* Theme/White */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 19px;
+
+width: 407px;
+height: 292px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Title */
+
+width: 407px;
+height: 106px;
+
+/* Headline 4 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 110%;
+/* or 53px */
+
+/* Theme/Gray 800 */
+color: #424242;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Body */
+
+width: 407px;
+height: 75px;
+
+/* Body 1 */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+/* Theme/Gray 700 */
+color: #616161;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 48px;
+gap: 10px;
+
+width: 407px;
+height: 60px;
+
+/* yellow button */
+background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+/* Button shadow ! */
+box-shadow: 0px 5px 8px rgba(222, 151, 0, 0.24), 0px 14px 32px rgba(255, 178, 14, 0.29);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 133px;
+height: 18px;
+
+/* Button Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 10px;
+height: 16px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 100%;
+/* identical to box height, or 16px */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Details Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 1480px;
+height: 512px;
+
+/* Shadow 2 */
+filter: drop-shadow(0px 14px 15px rgba(124, 124, 124, 0.06)) drop-shadow(0px 27px 82px rgba(124, 124, 124, 0.28));
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Left */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 56px;
+gap: 48px;
+
+width: 519px;
+height: 512px;
+
+/* Theme/White */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 19px;
+
+width: 407px;
+height: 292px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Title */
+
+width: 407px;
+height: 106px;
+
+/* Headline 4 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 110%;
+/* or 53px */
+
+/* Theme/Gray 900 */
+color: #212121;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Body */
+
+width: 407px;
+height: 75px;
+
+/* Body 1 */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+/* Theme/Gray 700 */
+color: #616161;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 48px;
+gap: 10px;
+
+width: 407px;
+height: 60px;
+
+/* yellow button */
+background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+/* Button shadow ! */
+box-shadow: 0px 5px 8px rgba(222, 151, 0, 0.24), 0px 14px 32px rgba(255, 178, 14, 0.29);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Proceed to order */
+
+width: 163px;
+height: 18px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* CHEVRON-RIGHT */
+
+width: 10px;
+height: 16px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 100%;
+/* identical to box height, or 16px */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Right */
+
+width: 961px;
+height: 512px;
+
+background: url(.jpg);
+border-radius: 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Image */
+
+position: absolute;
+width: 961px;
+height: 512px;
+left: 0px;
+top: 0px;
+
+background: url(Frame 118.png);
+
+
+/* CTA + Footer */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 1922px;
+height: 1336px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+
+/* CTA */
+
+width: 1920px;
+height: 400px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image */
+
+position: absolute;
+width: 1920px;
+height: 400px;
+left: 0px;
+top: 0px;
+
+background: url(34031582.jpg);
+mix-blend-mode: normal;
+opacity: 0.9;
+
+
+/* Text + Button */
+
+position: absolute;
+width: 728px;
+height: 234px;
+left: 596px;
+top: 91px;
+
+
+
+/* Text */
+
+position: absolute;
+width: 728px;
+height: 112px;
+left: 596px;
+top: 91px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 57px;
+line-height: 97.5%;
+/* or 56px */
+text-align: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 48px;
+gap: 10px;
+
+position: absolute;
+width: 233px;
+height: 60px;
+left: calc(50% - 233px/2 + 1.5px);
+top: 265px;
+
+background: linear-gradient(93.41deg, #F17228 -5.63%, #F15E28 100.8%);
+/* Button shadow ! */
+box-shadow: 0px 5px 8px rgba(222, 151, 0, 0.24), 0px 14px 32px rgba(255, 178, 14, 0.29);
+border-radius: 8px;
+
+
+/* Text */
+
+width: 163px;
+height: 18px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+text-align: center;
+text-transform: uppercase;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 10px;
+height: 16px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 100%;
+/* identical to box height, or 16px */
+text-align: center;
+
+/* Theme/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Footer */
+
+width: 1922px;
+height: 936px;
+
+/* Theme/Gray 900 */
+background: #212121;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Our Top Cities */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+position: absolute;
+width: 1480px;
+height: 236px;
+left: 221px;
+top: 99px;
+
+
+
+/* Title */
+
+width: 131px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Items */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+width: 1480px;
+height: 154px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Our Top Cities Menu Items 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+margin: 0 auto;
+width: 104px;
+height: 154px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 1 */
+
+width: 104px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 2 */
+
+width: 46px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 3 */
+
+width: 76px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* 4 */
+
+width: 64px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* 5 */
+
+width: 88px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Our Top Cities Menu Items 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+margin: 0 auto;
+width: 115px;
+height: 154px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 1 */
+
+width: 88px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 2 */
+
+width: 115px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 3 */
+
+width: 53px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* 4 */
+
+width: 66px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* 5 */
+
+width: 70px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Our Top Cities Menu Items 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+margin: 0 auto;
+width: 113px;
+height: 154px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* 1 */
+
+width: 103px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 2 */
+
+width: 113px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 3 */
+
+width: 54px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* 4 */
+
+width: 70px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* 5 */
+
+width: 54px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Our Top Cities Menu Items 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+margin: 0 auto;
+width: 111px;
+height: 154px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* 1 */
+
+width: 61px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 2 */
+
+width: 62px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 3 */
+
+width: 73px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* 4 */
+
+width: 92px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* 5 */
+
+width: 111px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Our Top Cities Menu Items 5 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+margin: 0 auto;
+width: 98px;
+height: 154px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* 1 */
+
+width: 77px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 2 */
+
+width: 90px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 3 */
+
+width: 98px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* 4 */
+
+width: 92px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* 5 */
+
+width: 96px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Menu + Subscription + Rights */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 63px;
+
+position: absolute;
+width: 1480px;
+height: 433px;
+left: 221px;
+top: 434px;
+
+
+
+/* HR */
+
+width: 1480px;
+height: 0px;
+
+/* Theme/Gray 800 */
+border: 2px solid #424242;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Menu + Subscription */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 363px;
+
+width: 1480px;
+height: 254px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Menu */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 65px;
+
+margin: 0 auto;
+width: 607px;
+height: 186px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Footer Menu Items */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+margin: 0 auto;
+width: 93px;
+height: 186px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Title */
+
+width: 93px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Items */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 67px;
+height: 120px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 1 */
+
+width: 67px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 2 */
+
+width: 42px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 3 */
+
+width: 58px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* 4 */
+
+width: 35px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Footer Menu Items */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+margin: 0 auto;
+width: 115px;
+height: 152px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Title */
+
+width: 77px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Items */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 115px;
+height: 86px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 1 */
+
+width: 115px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 2 */
+
+width: 114px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 3 */
+
+width: 92px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* 4 */
+
+display: none;
+width: 35px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Footer Menu Items */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+margin: 0 auto;
+width: 167px;
+height: 186px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Title */
+
+width: 52px;
+height: 26px;
+
+/* Headline 6 Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Items */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 167px;
+height: 120px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 1 */
+
+width: 147px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 2 */
+
+width: 167px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 3 */
+
+width: 104px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* 4 */
+
+width: 101px;
+height: 18px;
+
+/* Button */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Follow + Subscription */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 43px;
+
+margin: 0 auto;
+width: 483px;
+height: 254px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Follow Us */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+width: 101px;
+height: 86px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Title */
+
+width: 92px;
+height: 22px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+text-transform: uppercase;
+
+color: #F5F5F5;
+
+opacity: 0.6;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 101px;
+height: 24px;
+
+opacity: 0.31;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 1 */
+
+width: 21px;
+height: 24px;
+
+font-family: 'Font Awesome 5 Brands';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+/* identical to box height, or 24px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 2 */
+
+width: 24px;
+height: 24px;
+
+font-family: 'Font Awesome 5 Brands';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+/* identical to box height, or 24px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 3 */
+
+width: 24px;
+height: 24px;
+
+font-family: 'Font Awesome 5 Brands';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+/* identical to box height, or 24px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Subscription */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+width: 483px;
+height: 125px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 483px;
+height: 25px;
+
+/* Body 1 Bold */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: #BBBBBB;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text Field + Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 483px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text Field */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 7px 0px 8px 16px;
+gap: 10px;
+
+width: 334px;
+height: 60px;
+
+/* Theme/Gray 800 */
+background: #424242;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* envelope */
+
+width: 24px;
+height: 34px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 140%;
+/* identical to box height, or 34px */
+
+color: #ADADAD;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 140px;
+height: 25px;
+
+/* Body 1 */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: #ADADAD;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 24px;
+gap: 10px;
+
+width: 133px;
+height: 60px;
+
+/* yellow button */
+background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+/* Button shadow ! */
+box-shadow: 0px 5px 8px rgba(222, 151, 0, 0.24), 0px 14px 32px rgba(255, 178, 14, 0.29);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Subscribe */
+
+width: 79px;
+height: 18px;
+
+/* Button Bold */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* HR + Rights */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 1480px;
+height: 53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* HR */
+
+width: 1480px;
+height: 0px;
+
+/* Theme/Gray 800 */
+border: 2px solid #424242;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rights */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+
+width: 1480px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* RIghts */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 319px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Copyright */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 156px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* All rights Reserved */
+
+width: 130px;
+height: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 120%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Symbol */
+
+width: 16px;
+height: 18px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Company */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 153px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Your Company, 2021 */
+
+width: 153px;
+height: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 120%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Made By */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 221px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Made with  by */
+
+width: 112px;
+height: 18px;
+
+/* Header/9 */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 120%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ThemeWagon */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 101px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Themewagon */
+
+width: 101px;
+height: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 120%;
+/* identical to box height, or 18px */
+
+/* Theme/Gray 100 */
+color: #F5F5F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
