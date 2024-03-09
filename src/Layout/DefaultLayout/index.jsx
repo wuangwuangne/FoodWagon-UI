@@ -4,9 +4,9 @@ import Footer from './Footer';
 function DefaultLayout({ children }) {
     return (
         <div>
-            <Header></Header>
-            <div className="content">{children}</div>
-            <Footer></Footer>
+            <Header />
+            {children}
+            <Footer />
         </div>
     );
 }
