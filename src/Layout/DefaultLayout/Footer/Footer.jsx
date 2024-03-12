@@ -211,7 +211,7 @@ function Footer() {
                 <p>All rights Reserved © Your Company, 2024</p>
                 <div className="flex items-center">
                     Made with <FaHeart className="text-red-600 mx-2" /> by
-                    <a className="mx-2" href="">
+                    <a className="mx-2" href="https://www.facebook.com/profile.php?id=100020162593131" target="blank">
                         WuangWuangne
                     </a>
                 </div>

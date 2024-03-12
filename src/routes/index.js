@@ -1,5 +1,5 @@
 import Home from '~/pages/Home';
-import Item from '~/pages/Item';
+import Item from '~/Layout/DefaultLayout/Item';
 
 //Xem bth
 const publicRoutes = [

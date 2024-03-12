@@ -5,11 +5,21 @@ import { FaLocationDot } from 'react-icons/fa6';
 import { FaMotorcycle } from 'react-icons/fa';
 import { GiShoppingBag } from 'react-icons/gi';
 import { useState } from 'react';
+
 function Header() {
-    const [formVisible, setFormVisible] = useState(false);
-    const toggleForm = () => {
-        setFormVisible(!formVisible);
+    const [deliveryFormVisible, setDeliveryFormVisible] = useState(false);
+    const [pickupFormVisible, setPickupFormVisible] = useState(false);
+
+    const toggleDeliveryForm = () => {
+        setDeliveryFormVisible(!deliveryFormVisible);
+        setPickupFormVisible(false);
     };
+
+    const togglePickupForm = () => {
+        setPickupFormVisible(!pickupFormVisible);
+        setDeliveryFormVisible(false);
+    };
+
     return (
         <div className=" bg-primary font-bold">
             <div className="flex items-center justify-evenly  py-2 px-4 mx-auto fixed top-0 right-0 left-0 bg-[#F9FAFD] text-base pb-[17px] z-[1030]">
@@ -60,21 +70,25 @@ function Header() {
                     <div className="w-[70%] bg-light px-4 rounded-lg">
                         <div className="flex justify-around border-b border-black border-opacity-10 mb-4 p-[10px] ">
                             <div
-                                className="flex items-center justify-center w-1/2 mx-2 rounded text-orange1 bg-[#F17228] bg-opacity-15 cursor-pointer "
-                                onClick={toggleForm}
+                                className={`flex items-center justify-center w-1/2 mx-2 rounded  bg-orange-500 bg-opacity-15 cursor-pointer ${
+                                    deliveryFormVisible ? 'bg-opacity-100' : ''
+                                }`}
+                                onClick={toggleDeliveryForm}
                             >
                                 <FaMotorcycle />
-                                <button className="">Delivery</button>
+                                <button>Delivery</button>
                             </div>
                             <div
-                                className="flex items-center justify-center w-1/2 mx-2 rounded text-orange1 bg-[#F17228] bg-opacity-15 cursor-pointer"
-                                onClick={toggleForm}
+                                className={`flex items-center justify-center w-1/2 mx-2 rounded  bg-[#F17228] bg-opacity-15 cursor-pointer ${
+                                    pickupFormVisible ? 'bg-opacity-100' : ''
+                                }`}
+                                onClick={togglePickupForm}
                             >
                                 <GiShoppingBag />
-                                <button className="text-[#F17228] ">Pickup</button>
+                                <button>Pickup</button>
                             </div>
                         </div>
-                        {formVisible && (
+                        {(deliveryFormVisible || pickupFormVisible) && (
                             <div className="p-[10px]">
                                 <form className="flex items-center">
                                     <div className="w-[90%]">
@@ -82,17 +96,14 @@ function Header() {
                                             <FaLocationDot className="absolute h-5 w-5 top-1/2 transform -translate-y-1/2 text-[#F17228] left-3" />
                                             <label className="sr-only">Address</label>
                                             <input
-                                                className="block w-full px-10 py-3 rounded-lg focus:outline-none focus:border-[#F17228]"
+                                                className="block w-full px-10 py-3 rounded-lg focus:outline-none focus:border-[#F17228] "
                                                 type="text"
                                                 placeholder="Enter Your Address"
                                             />
                                         </div>
                                     </div>
                                     <div className="w-[30%]">
-                                        <button
-                                            className="px-3 py-3 rounded-lg bg-[#F17228] text-[#ffff]"
-                                            type="submit"
-                                        >
+                                        <button className="px-3 py-3 rounded-lg bg-[#F17228] text-[#ffff]">
                                             Find Food
                                         </button>
                                     </div>

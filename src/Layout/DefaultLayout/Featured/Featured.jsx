@@ -10,7 +10,7 @@ function Featured() {
                     <div className="cursor-pointer">
                         <div className="text-white relative">
                             <img className="rounded-2xl mb-4" src="img/res1.png" alt="" />
-                            <div className="absolute top-3 left-4 flex justify-center items-center bg-orange  rounded-xl">
+                            <div className="absolute top-3 left-4 flex justify-center items-center bg-orange-500  rounded-xl">
                                 <div className="text-[15px] font-bold flex items-center p-1">
                                     <FaTag className="mr-1" />
                                     10% off
@@ -29,7 +29,7 @@ function Featured() {
                                     <p className="font-bold ">Food world</p>
                                 </div>
                             </div>
-                            <span className="text-orange font-bold bg-[#fdeadf] rounded-lg pr-2 pl-2 p-1 text-[19px]">
+                            <span className="text-orange-400 font-bold bg-[#fdeadf] rounded-lg pr-2 pl-2 p-1 text-[19px]">
                                 Opens Tomorrow
                             </span>
                         </div>
@@ -40,7 +40,7 @@ function Featured() {
                     <div className="cursor-pointer">
                         <div className="text-white relative">
                             <img className="rounded-2xl mb-4" src="img/res2.png" alt="" />
-                            <div className="absolute top-3 left-4 flex justify-center items-center bg-orange  rounded-xl">
+                            <div className="absolute top-3 left-4 flex justify-center items-center bg-orange-500  rounded-xl">
                                 <div className="text-[15px] font-bold flex items-center p-1">
                                     <FaTag className="mr-1" />
                                     10% off
@@ -59,7 +59,7 @@ function Featured() {
                                     <p className="font-bold ">Food world</p>
                                 </div>
                             </div>
-                            <span className="text-orange font-bold bg-[#fdeadf] rounded-lg pr-2 pl-2 p-1 text-[19px]">
+                            <span className="text-orange-400 font-bold bg-[#fdeadf] rounded-lg pr-2 pl-2 p-1 text-[19px]">
                                 Opens Tomorrow
                             </span>
                         </div>
@@ -70,7 +70,7 @@ function Featured() {
                     <div className="cursor-pointer">
                         <div className="text-white relative">
                             <img className="rounded-2xl mb-4" src="img/res3.png" alt="" />
-                            <div className="absolute top-3 left-4 flex justify-center items-center bg-orange  rounded-xl">
+                            <div className="absolute top-3 left-4 flex justify-center items-center bg-orange-500  rounded-xl">
                                 <div className="text-[15px] font-bold flex items-center p-1">
                                     <FaTag className="mr-1" />
                                     10% off
@@ -100,7 +100,7 @@ function Featured() {
                     <div className="cursor-pointer">
                         <div className="text-white relative">
                             <img className="rounded-2xl mb-4" src="img/res4.png" alt="" />
-                            <div className="absolute top-3 left-4 flex justify-center items-center bg-orange  rounded-xl">
+                            <div className="absolute top-3 left-4 flex justify-center items-center bg-orange-500  rounded-xl">
                                 <div className="text-[15px] font-bold flex items-center p-1">
                                     <FaTag className="mr-1" />
                                     10% off
@@ -129,7 +129,7 @@ function Featured() {
                     <div className="cursor-pointer">
                         <div className="text-white relative">
                             <img className="rounded-2xl mb-4" src="img/res1.png" alt="" />
-                            <div className="absolute top-3 left-4 flex justify-center items-center bg-orange  rounded-xl">
+                            <div className="absolute top-3 left-4 flex justify-center items-center bg-orange-500  rounded-xl">
                                 <div className="text-[15px] font-bold flex items-center p-1">
                                     <FaTag className="mr-1" />
                                     10% off
@@ -148,7 +148,7 @@ function Featured() {
                                     <p className="font-bold ">Food world</p>
                                 </div>
                             </div>
-                            <span className="text-orange font-bold bg-[#fdeadf] rounded-lg pr-2 pl-2 p-1 text-[19px]">
+                            <span className="text-orange-400 font-bold bg-[#fdeadf] rounded-lg pr-2 pl-2 p-1 text-[19px]">
                                 Opens Tomorrow
                             </span>
                         </div>
@@ -159,7 +159,7 @@ function Featured() {
                     <div className="cursor-pointer">
                         <div className="text-white relative">
                             <img className="rounded-2xl mb-4" src="img/res2.png" alt="" />
-                            <div className="absolute top-3 left-4 flex justify-center items-center bg-orange  rounded-xl">
+                            <div className="absolute top-3 left-4 flex justify-center items-center bg-orange-500  rounded-xl">
                                 <div className="text-[15px] font-bold flex items-center p-1">
                                     <FaTag className="mr-1" />
                                     10% off
@@ -178,7 +178,7 @@ function Featured() {
                                     <p className="font-bold ">Food world</p>
                                 </div>
                             </div>
-                            <span className="text-orange font-bold bg-[#fdeadf] rounded-lg pr-2 pl-2 p-1 text-[19px]">
+                            <span className="text-orange-400 font-bold bg-[#fdeadf] rounded-lg pr-2 pl-2 p-1 text-[19px]">
                                 Opens Tomorrow
                             </span>
                         </div>
@@ -189,7 +189,7 @@ function Featured() {
                     <div className="cursor-pointer">
                         <div className="text-white relative">
                             <img className="rounded-2xl mb-4" src="img/res3.png" alt="" />
-                            <div className="absolute top-3 left-4 flex justify-center items-center bg-orange  rounded-xl">
+                            <div className="absolute top-3 left-4 flex justify-center items-center bg-orange-500  rounded-xl">
                                 <div className="text-[15px] font-bold flex items-center p-1">
                                     <FaTag className="mr-1" />
                                     10% off
@@ -219,7 +219,7 @@ function Featured() {
                     <div className="cursor-pointer">
                         <div className="text-white relative">
                             <img className="rounded-2xl mb-4" src="img/res4.png" alt="" />
-                            <div className="absolute top-3 left-4 flex justify-center items-center bg-orange  rounded-xl">
+                            <div className="absolute top-3 left-4 flex justify-center items-center bg-orange-500  rounded-xl">
                                 <div className="text-[15px] font-bold flex items-center p-1">
                                     <FaTag className="mr-1" />
                                     10% off
