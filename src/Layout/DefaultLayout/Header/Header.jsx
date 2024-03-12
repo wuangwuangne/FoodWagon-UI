@@ -22,8 +22,8 @@ function Header() {
 
     return (
         <div className=" bg-primary font-bold">
-            <div className="flex items-center justify-evenly  py-2 px-4 mx-auto fixed top-0 right-0 left-0 bg-[#F9FAFD] text-base pb-[17px] z-[1030]">
-                <div className=" flex items-center">
+            <div className="flex items-center justify-between  py-2 px-4 fixed top-0 right-0 left-0 bg-[#F9FAFD] text-base pb-[17px] z-[1030]">
+                <div className=" flex items-center pl-28 ">
                     <div>
                         <img src="img/logo.png" alt="" />
                     </div>
@@ -39,7 +39,7 @@ function Header() {
                         <span className="font-normal">Current Location</span>
                         <span>Mirpur 1 Bus Stand, Dhaka</span>
                     </p>
-                    <div className="flex items-center relative text-primary ">
+                    <div className="flex items-center relative text-primary pr-28">
                         <div className="relative flex items-center rounded border-primary ">
                             <input
                                 className="  mr-[30px] rounded-lg outline-none py-2 px-10 "
