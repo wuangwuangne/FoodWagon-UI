@@ -2,12 +2,12 @@ import { FaLocationDot } from 'react-icons/fa6';
 import { TbBellRingingFilled } from 'react-icons/tb';
 import { FaWallet } from 'react-icons/fa6';
 import { MdDonutSmall } from 'react-icons/md';
-import Item from '../../Layout/DefaultLayout/Item';
-import Sliders from '~/Layout/DefaultLayout/Slider/Slider';
-import Catalog from '~/Layout/DefaultLayout/Catalog';
-import Featured from '~/Layout/DefaultLayout/Featured';
-import BannerDow from '~/Layout/DefaultLayout/Banner-dow';
-import Last from '~/Layout/DefaultLayout/Last';
+import Item from './Item';
+import Sliders from '~/pages/Home/Slider/Slider';
+import Catalog from '~/pages/Home/Catalog';
+import Featured from '~/pages/Home/Featured';
+import BannerDow from '~/pages/Home/Banner-dow';
+import Last from '~/pages/Home/Last';
 function Home() {
     return (
         <div>
