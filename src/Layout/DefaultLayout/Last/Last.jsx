@@ -2,7 +2,7 @@ import { FaChevronRight } from 'react-icons/fa';
 
 function Last() {
     return (
-        <div className="relative font-bold">
+        <div className="relative font-bold ">
             <img src="img/last.png" alt="" />
             <div className="absolute inset-0 flex items-center justify-center text-center">
                 <div className="flex flex-col items-center justify-center">

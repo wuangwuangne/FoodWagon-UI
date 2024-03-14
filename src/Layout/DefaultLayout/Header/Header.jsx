@@ -4,7 +4,7 @@ import { IoIosSearch } from 'react-icons/io';
 import { FaLocationDot } from 'react-icons/fa6';
 import { FaMotorcycle } from 'react-icons/fa';
 import { GiShoppingBag } from 'react-icons/gi';
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 function Header() {
     const [deliveryFormVisible, setDeliveryFormVisible] = useState(false);
@@ -21,7 +21,7 @@ function Header() {
     };
 
     return (
-        <div className=" bg-primary font-bold">
+        <div className=" bg-primary font-bold ">
             <div className="flex items-center justify-between  py-2 px-4 fixed top-0 right-0 left-0 bg-[#F9FAFD] text-base pb-[17px] z-[1030]">
                 <div className=" flex items-center pl-28 ">
                     <div>
@@ -70,8 +70,8 @@ function Header() {
                     <div className="w-[70%] bg-light px-4 rounded-lg">
                         <div className="flex justify-around border-b border-black border-opacity-10 mb-4 p-[10px] ">
                             <div
-                                className={`flex items-center justify-center w-1/2 mx-2 rounded  bg-orange-500 bg-opacity-15 cursor-pointer ${
-                                    deliveryFormVisible ? 'bg-opacity-100' : ''
+                                className={`flex items-center justify-center w-1/2 mx-2 rounded  bg-orange-500  cursor-pointer ${
+                                    deliveryFormVisible ? 'bg-orange-600 text-white' : ''
                                 }`}
                                 onClick={toggleDeliveryForm}
                             >
@@ -79,8 +79,8 @@ function Header() {
                                 <button>Delivery</button>
                             </div>
                             <div
-                                className={`flex items-center justify-center w-1/2 mx-2 rounded  bg-[#F17228] bg-opacity-15 cursor-pointer ${
-                                    pickupFormVisible ? 'bg-opacity-100' : ''
+                                className={`flex items-center justify-center w-1/2 mx-2 rounded  bg-orange-500  cursor-pointer ${
+                                    pickupFormVisible ? 'text-white bg-orange-600' : ''
                                 }`}
                                 onClick={togglePickupForm}
                             >

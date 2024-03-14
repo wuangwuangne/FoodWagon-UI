@@ -3,7 +3,7 @@ import { TbBellRingingFilled } from 'react-icons/tb';
 import { FaWallet } from 'react-icons/fa6';
 import { MdDonutSmall } from 'react-icons/md';
 import Item from '../../Layout/DefaultLayout/Item';
-import Slider from '~/Layout/DefaultLayout/Slider/Slider';
+import Sliders from '~/Layout/DefaultLayout/Slider/Slider';
 import Catalog from '~/Layout/DefaultLayout/Catalog';
 import Featured from '~/Layout/DefaultLayout/Featured';
 import BannerDow from '~/Layout/DefaultLayout/Banner-dow';
@@ -42,7 +42,7 @@ function Home() {
             {/* Slide */}
             <div className="pt-32 flex flex-col items-center ">
                 <h1 className="font-bold text-[40px] ">Poplar items</h1>
-                <Slider />
+                <Sliders />
             </div>
             {/* Featured */}
             <Featured />

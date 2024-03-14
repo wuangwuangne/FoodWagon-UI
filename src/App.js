@@ -3,6 +3,13 @@ import { publicRoutes } from './routes';
 import DefaultLayout from './Layout/DefaultLayout';
 
 function App() {
+    const docTitle = document.title;
+    window.addEventListener('blur', () => {
+        document.title = 'Come back :(';
+    });
+    window.addEventListener('focus', () => {
+        document.title = docTitle;
+    });
     return (
         <Router>
             <div className="App">
