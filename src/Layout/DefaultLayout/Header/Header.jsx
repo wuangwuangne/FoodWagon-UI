@@ -1,29 +1,22 @@
 import { MdLocationOn } from 'react-icons/md';
 import { CiUser } from 'react-icons/ci';
 import { IoIosSearch } from 'react-icons/io';
-import { FaLocationDot } from 'react-icons/fa6';
-import { FaMotorcycle } from 'react-icons/fa';
-import { GiShoppingBag } from 'react-icons/gi';
-import React, { useState } from 'react';
+
+import { useNavigate } from 'react-router-dom';
 
 function Header() {
-    const [deliveryFormVisible, setDeliveryFormVisible] = useState(false);
-    const [pickupFormVisible, setPickupFormVisible] = useState(false);
+    const navigate = useNavigate();
 
-    const toggleDeliveryForm = () => {
-        setDeliveryFormVisible(!deliveryFormVisible);
-        setPickupFormVisible(false);
+    const click = () => {
+        navigate('login');
     };
-
-    const togglePickupForm = () => {
-        setPickupFormVisible(!pickupFormVisible);
-        setDeliveryFormVisible(false);
+    const home = () => {
+        navigate('/');
     };
-
     return (
-        <div className=" bg-primary font-bold ">
-            <div className="flex items-center justify-between  py-2 px-4 fixed top-0 right-0 left-0 bg-[#F9FAFD] text-base pb-[17px] z-[1030]">
-                <div className=" flex items-center pl-28 ">
+        <div className=" font-bold ">
+            <div className="flex items-center justify-between  py-2 px-4 fixed  right-0 left-0 bg-[#F9FAFD] text-base pb-[17px] z-[1030]">
+                <div className=" flex items-center pl-28 cursor-pointer " onClick={home}>
                     <div>
                         <img src="img/logo.png" alt="" />
                     </div>
@@ -51,73 +44,14 @@ function Header() {
                         </div>
 
                         <button
-                            className="flex items-center w-3/6 text-primary bg-[#FFFEFE] justify-center py-2 px-10"
+                            onClick={click}
+                            className="flex items-center w-3/6 text-primary bg-[#FFFEFE] justify-center py-2 px-10 rounded-lg"
                             type="submit"
                         >
                             <CiUser />
                             Login
                         </button>
                     </div>
-                </div>
-            </div>
-            <div className=" flex items-center  ml-[180px]">
-                <div className="w-1/2">
-                    <h1 className="text-[#ffff] font-extrabold leading-none text-7xl mb-[20px]">Are you starving?</h1>
-                    <h1 className="text-4xl text-[#616161] mb-[20px] ">
-                        Within a few clicks, find meals that are accessible near you
-                    </h1>
-
-                    <div className="w-[70%] bg-light px-4 rounded-lg">
-                        <div className="flex justify-around border-b border-black border-opacity-10 mb-4 p-[10px] ">
-                            <div
-                                className={`flex items-center justify-center w-1/2 mx-2 rounded  bg-orange-500  cursor-pointer ${
-                                    deliveryFormVisible ? 'bg-orange-600 text-white' : ''
-                                }`}
-                                onClick={toggleDeliveryForm}
-                            >
-                                <FaMotorcycle />
-                                <button>Delivery</button>
-                            </div>
-                            <div
-                                className={`flex items-center justify-center w-1/2 mx-2 rounded  bg-orange-500  cursor-pointer ${
-                                    pickupFormVisible ? 'text-white bg-orange-600' : ''
-                                }`}
-                                onClick={togglePickupForm}
-                            >
-                                <GiShoppingBag />
-                                <button>Pickup</button>
-                            </div>
-                        </div>
-                        {(deliveryFormVisible || pickupFormVisible) && (
-                            <div className="p-[10px]">
-                                <form className="flex items-center">
-                                    <div className="w-[90%]">
-                                        <div className="relative">
-                                            <FaLocationDot className="absolute h-5 w-5 top-1/2 transform -translate-y-1/2 text-[#F17228] left-3" />
-                                            <label className="sr-only">Address</label>
-                                            <input
-                                                className="block w-full px-10 py-3 rounded-lg focus:outline-none focus:border-[#F17228] "
-                                                type="text"
-                                                placeholder="Enter Your Address"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div className="w-[30%]">
-                                        <button className="px-3 py-3 rounded-lg bg-[#F17228] text-[#ffff]">
-                                            Find Food
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
-                        )}
-                    </div>
-                </div>
-                <div className="relative w-1/2">
-                    <img
-                        className="transition-transform duration-300 transform hover:-translate-y-4 cursor-pointer pt-[170px] "
-                        src="img/food.png"
-                        alt=""
-                    />
                 </div>
             </div>
         </div>

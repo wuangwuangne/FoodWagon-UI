@@ -8,9 +8,12 @@ import Catalog from '~/pages/Home/Catalog';
 import Featured from '~/pages/Home/Featured';
 import BannerDow from '~/pages/Home/Banner-dow';
 import Last from '~/pages/Home/Last';
+import Find from './Find';
 function Home() {
     return (
         <div>
+            {/* Find */}
+            <Find />
             {/* Item */}
             <Item />
             {/* How does it work */}
