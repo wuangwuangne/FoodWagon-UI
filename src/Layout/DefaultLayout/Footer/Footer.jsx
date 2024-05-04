@@ -1,179 +1,62 @@
 import { MdEmail } from 'react-icons/md';
-import { FaHeart } from 'react-icons/fa';
-import { FaInstagram } from 'react-icons/fa';
-import { FaFacebook } from 'react-icons/fa6';
-import { FaTwitter } from 'react-icons/fa';
+import { FaHeart, FaInstagram, FaFacebook, FaTwitter } from 'react-icons/fa';
+
 function Footer() {
+    const cities = [
+        ['San Francisco', 'Miami', 'San Diego', 'East Bay', 'Long Beach'],
+        ['Los Angeles', 'Washington DC', 'Seattle', 'Portland', 'Nashville'],
+        ['New York City', 'Orange County', 'Atlanta', 'Charlotte', 'Denver'],
+        ['Chicago', 'Phoenix', 'Las Vegas', 'Sacramento', 'Oklahoma City'],
+        ['Columbus', 'New Mexico', 'Albuquerque', 'Sacramento', 'New Orleans'],
+    ];
+
+    const renderCityList = () => {
+        return cities.map((cityGroup, index) => (
+            <div className="mb-3" key={index}>
+                <ul>
+                    {cityGroup.map((city, cityIndex) => (
+                        <li key={cityIndex}>
+                            <a href="#!">{city}</a>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        ));
+    };
+
+    const renderLinkList = (title, links) => {
+        return (
+            <div className="mb-3">
+                <h1 className="lh-lg font-bold text-white mb-5">{title}</h1>
+                <ul>
+                    {links.map((link, index) => (
+                        <li key={index}>
+                            <a href="#!">{link}</a>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        );
+    };
+
     return (
         <div className="bg-footer pt-20 text-white pb-0 leading-6 mb-0 flex flex-col px-28">
             <h1 className="mb-4 font-bold">OUR TOP CITIES</h1>
-            <div className="flex justify-between">
-                <div className=" mb-3">
-                    <ul>
-                        <li>
-                            <a href="#!">San Francisco</a>
-                        </li>
-                        <li>
-                            <a href="#!">Miami</a>
-                        </li>
-                        <li>
-                            <a href="#!">San Diego</a>
-                        </li>
-                        <li>
-                            <a href="#!">East Bay</a>
-                        </li>
-                        <li>
-                            <a href="#!">Long Beach</a>
-                        </li>
-                    </ul>
-                </div>
-                <div className=" mb-3">
-                    <ul>
-                        <li>
-                            <a href="#!">Los Angeles</a>
-                        </li>
-                        <li>
-                            <a href="#!">Washington DC</a>
-                        </li>
-                        <li>
-                            <a href="#!">Seattle</a>
-                        </li>
-                        <li>
-                            <a href="#!">Portland</a>
-                        </li>
-                        <li>
-                            <a href="#!">Nashville</a>
-                        </li>
-                    </ul>
-                </div>
-                <div className=" mb-3">
-                    <ul>
-                        <li>
-                            <a href="#!">New York City</a>
-                        </li>
-                        <li>
-                            <a href="#!">Orange County</a>
-                        </li>
-                        <li>
-                            <a href="#!">Atlanta</a>
-                        </li>
-                        <li>
-                            <a href="#!">Charlotte</a>
-                        </li>
-                        <li>
-                            <a href="#!">Denver</a>
-                        </li>
-                    </ul>
-                </div>
-                <div className=" mb-3">
-                    <ul>
-                        <li>
-                            <a href="#!">Chicago</a>
-                        </li>
-                        <li>
-                            <a href="#!">Phoenix</a>
-                        </li>
-                        <li>
-                            <a href="#!">Las Vegas</a>
-                        </li>
-                        <li>
-                            <a href="#!">Sacramento</a>
-                        </li>
-                        <li>
-                            <a href="#!">Oklahoma City</a>
-                        </li>
-                    </ul>
-                </div>
-                <div className=" mb-3">
-                    <ul>
-                        <li>
-                            <a href="#!">Columbus</a>
-                        </li>
-                        <li>
-                            <a href="#!">New Mexico</a>
-                        </li>
-                        <li>
-                            <a href="#!">Albuquerque</a>
-                        </li>
-                        <li>
-                            <a href="#!">Sacramento</a>
-                        </li>
-                        <li>
-                            <a href="#!">New Orleans</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            <div className="flex justify-between">{renderCityList()}</div>
             <hr className="my-4 text-[#424242]" />
-            <div className="flex justify-between ">
-                <div className="mb-3">
-                    <h1 className="lh-lg font-bold text-white mb-5">COMPANY</h1>
-                    <ul>
-                        <li>
-                            <a href="#!">About Us</a>
-                        </li>
-                        <li>
-                            <a href="#!">Team</a>
-                        </li>
-                        <li>
-                            <a href="#!">Careers</a>
-                        </li>
-                        <li>
-                            <a href="#!">blog</a>
-                        </li>
-                    </ul>
-                </div>
-                <div className="col-lg-3 mb-3">
-                    <h1 className="lh-lg font-bold text-white mb-5 mr-4">CONTACT</h1>
-                    <ul>
-                        <li>
-                            <a href="#!">Help &amp; Support</a>
-                        </li>
-                        <li>
-                            <a href="#!">Partner with us </a>
-                        </li>
-                        <li>
-                            <a href="#!">Ride with us</a>
-                        </li>
-                        <li>
-                            <a href="#!">Ride with us</a>
-                        </li>
-                    </ul>
-                </div>
-                <div className="mb-3">
-                    <h1 className="lh-lg font-bold text-white mb-5 mr-4">LEGAL</h1>
-                    <ul>
-                        <li>
-                            <a href="#!">Terms &amp; Conditions</a>
-                        </li>
-                        <li>
-                            <a href="#!">Refund &amp; Cancellation</a>
-                        </li>
-                        <li>
-                            <a href="#!">Privacy Policy</a>
-                        </li>
-                        <li>
-                            <a href="#!">Cookie Policy</a>
-                        </li>
-                    </ul>
-                </div>
-                <div className="mb-4">
-                    <h1 className="lh-lg font-bold text-white mb-5 mr-4">LEGAL</h1>
-                    <ul>
-                        <li>
-                            <a href="#!">Terms &amp; Conditions</a>
-                        </li>
-                        <li>
-                            <a href="#!">Refund &amp; Cancellation</a>
-                        </li>
-                        <li>
-                            <a href="#!">Privacy Policy</a>
-                        </li>
-                    </ul>
-                </div>
+            <div className="flex justify-between">
+                {renderLinkList('COMPANY', ['About Us', 'Team', 'Careers', 'Blog'])}
+                {renderLinkList('CONTACT', ['Help & Support', 'Partner with Us', 'Ride with Us'])}
+                {renderLinkList('LEGAL', [
+                    'Terms & Conditions',
+                    'Refund & Cancellation',
+                    'Privacy Policy',
+                    'Cookie Policy',
+                ])}
+                {renderLinkList('LEGAL', ['Terms & Conditions', 'Refund & Cancellation', 'Privacy Policy'])}
                 <div className="text-[#BDBDBD] w-[32%]">
                     <h1 className="lh-lg font-bold text-[20px]">FOLLOW US</h1>
-                    <div className="text-start my-3 flex ">
+                    <div className="text-start my-3 flex">
                         <a className="mr-3 text-[25px]" href="#!">
                             <FaInstagram />
                         </a>
@@ -184,7 +67,7 @@ function Footer() {
                             <FaTwitter />
                         </a>
                     </div>
-                    <h4 className="font-bold my-7  text-[26px]">
+                    <h4 className="font-bold my-7 text-[26px]">
                         Receive exclusive offers and discounts in your mailbox
                     </h4>
                     <div className="flex items-center">
@@ -193,7 +76,7 @@ function Footer() {
                                 <MdEmail className="text-[#BDBDBD]" />
                             </div>
                             <input
-                                className="border-0 rounded-md text- bg-[#616161] pl-10 pr-4 py-2 "
+                                className="border-0 rounded-md text-bg-[#616161] pl-10 pr-4 py-2"
                                 type="email"
                                 placeholder="Enter Email"
                             />
@@ -211,7 +94,12 @@ function Footer() {
                 <p>All rights Reserved © Your Company, 2024</p>
                 <div className="flex items-center">
                     Made with <FaHeart className="text-red-600 mx-2" /> by
-                    <a className="mx-2" href="https://www.facebook.com/profile.php?id=100020162593131" target="blank">
+                    <a
+                        className="mx-2"
+                        href="https://www.facebook.com/profile.php?id=100020162593131"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         WuangWuangne
                     </a>
                 </div>

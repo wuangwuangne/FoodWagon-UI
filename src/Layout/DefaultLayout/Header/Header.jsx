@@ -1,56 +1,66 @@
-import { MdLocationOn } from 'react-icons/md';
-import { CiUser } from 'react-icons/ci';
+// import { MdLocationOn } from 'react-icons/md';
+
+import { FaShoppingCart } from 'react-icons/fa';
+import { FaUser } from 'react-icons/fa';
 import { IoIosSearch } from 'react-icons/io';
 
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function Header() {
     const navigate = useNavigate();
 
     const click = () => {
-        navigate('login');
+        navigate('/login');
     };
     const home = () => {
         navigate('/');
     };
+
     return (
         <div className=" font-bold ">
-            <div className="flex items-center justify-between  py-2 px-4 fixed  right-0 left-0 bg-[#F9FAFD] text-base pb-[17px] z-[1030]">
-                <div className=" flex items-center pl-28 cursor-pointer " onClick={home}>
-                    <div>
-                        <img src="img/logo.png" alt="" />
-                    </div>
-                    <span className="bg-gradient-to-r from-orange-600 via-orange-600 to-yellow-400 bg-clip-text text-transparent font-bold ml-1 text-[28px] ">
-                        foodwaGon
-                    </span>
-                </div>
-
-                <div className=" flex items-center justify-between ">
-                    <p className="text-black font-bold flex pr-[80px]">
-                        Deliver to:
-                        <MdLocationOn className="left-4 text-primary" />
-                        <span className="font-normal">Current Location</span>
-                        <span>Mirpur 1 Bus Stand, Dhaka</span>
-                    </p>
-                    <div className="flex items-center relative text-primary pr-28">
-                        <div className="relative flex items-center rounded border-primary ">
-                            <input
-                                className="  mr-[30px] rounded-lg outline-none py-2 px-10 "
-                                placeholder="Search Food"
-                            />
-                            <button className="absolute inset-y-0 left-0 flex items-center bg-[#FFFEFE] rounded ">
-                                <IoIosSearch className="ml-5 font-semibold" />
-                            </button>
+            <div className="flex  flex-col  py-2 px-4  fixed  right-0 left-0 bg-[#F9FAFD] text-base pb-[17px] z-[1030]">
+                <div className="flex justify-between">
+                    <div className=" flex items-center pl-28 cursor-pointer " onClick={home}>
+                        <div>
+                            <img className="h-10" src="img/Main/LOGO.jpg" alt="" />
                         </div>
-
+                        <span className="bg-gradient-to-r from-black  to-gray-400 bg-clip-text text-transparent font-bold ml-1 text-[24px] ">
+                            EZMAN SNEAKER
+                        </span>
+                    </div>
+                    <div className=" flex items-center font-bold text-[18px] w-[40%] justify-between bg-gradient-to-r from-black via-slate-600 to-slate-700 bg-clip-text text-transparent">
+                        <Link to={'/shoes'}>SHOES</Link>
+                        <Link to={'/sandals'}>SANDALS</Link>
+                        <a href="#">ACCESSORY</a>
+                        <Link to={'/size'}>SIZE CHART</Link>
+                    </div>
+                    <div className="flex  items-center  text-primary ">
                         <button
                             onClick={click}
-                            className="flex items-center w-3/6 text-primary bg-[#FFFEFE] justify-center py-2 px-10 rounded-lg"
+                            className="flex items-center w-[30%] text-primary bg-[#dcdddd] justify-center py-1 px-2 rounded-lg mr-1"
                             type="submit"
                         >
-                            <CiUser />
+                            <FaUser />
                             Login
                         </button>
+                        <button
+                            onClick={click}
+                            className="flex items-center w-[30%] text-primary bg-[#dcdddd] justify-center py-1 px-2 rounded-lg mr-1"
+                            type="submit"
+                        >
+                            <FaShoppingCart />
+                            Giỏ
+                        </button>
+                        <div className="flex items-center ">
+                            <input
+                                type="text"
+                                placeholder="Search"
+                                className="w-[80%] bg-[#dcdddd] rounded-3xl pl-2 pr-2"
+                            />
+                            <button>
+                                <IoIosSearch />
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>

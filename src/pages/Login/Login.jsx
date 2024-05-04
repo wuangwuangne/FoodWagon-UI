@@ -8,12 +8,12 @@ function LoginForm() {
     };
     return (
         <div
-            className="h-[100vh] flex justify-center items-center bg-cover bg-no-repeat  "
-            style={{ backgroundImage: "url('img/logo.png')" }}
+            className="flex justify-center items-center min-h-screen bg-cover bg-no-repeat bg-white"
+            style={{ backgroundImage: "url('img/Main/logo.png)" }}
         >
             <img className="mr-4" src="img/login/login1.png" alt="" />
-            <form className="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-                <div className="relative mx-4 -mt-6 mb-4 grid h-28 place-items-center overflow-hidden rounded-xl bg-gradient-to-tl from-orange-500 to-orange-300    ">
+            <form className="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border  shadow-md">
+                <div className="relative mx-4 -mt-6 mb-4 grid h-28 place-items-center overflow-hidden rounded-xl bg-gradient-to-tl from-black to-gray-500   ">
                     <h3 className="block font-sans text-3xl font-semibold leading-snug tracking-normal text-white antialiased">
                         Log In
                     </h3>

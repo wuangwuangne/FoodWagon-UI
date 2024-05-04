@@ -27,8 +27,8 @@ function RestaurantItem({ imageSrc, logoSrc, isOpenNow }) {
                         </div>
                     </div>
                     <span
-                        className={`text-${isOpenNow ? 'green' : 'orange'}-400 font-bold bg-${
-                            isOpenNow ? 'green' : '#fdeadf'
+                        className={`${isOpenNow ? 'bg-green-500' : 'bg-orange-600'} font-bold bg-${
+                            isOpenNow ? 'text-white' : 'text-[#fdeadf]'
                         } rounded-lg pr-2 pl-2 p-1 text-[19px]`}
                     >
                         {isOpenNow ? 'Opens now' : 'Opens Tomorrow'}
