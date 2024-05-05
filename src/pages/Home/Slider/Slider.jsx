@@ -2,8 +2,67 @@ import React, { useState } from 'react';
 import { GrPrevious } from 'react-icons/gr';
 import { GrNext } from 'react-icons/gr';
 
+const VALUE = [
+    {
+        id: 1,
+        img: 'img/Main/Giày/adidas1.jpg',
+        name: 'Custom Text 1',
+    },
+    {
+        id: 2,
+        img: 'img/Main/Giày/adidas2.jpg',
+        name: 'Custom Text 2',
+    },
+    {
+        id: 3,
+        img: 'img/Main/Giày/adidas3.jpg',
+        name: 'Custom Text 3',
+    },
+    {
+        id: 4,
+        img: 'img/Main/Giày/adidas1.jpg',
+        name: 'Custom Text 4',
+    },
+    {
+        id: 5,
+        img: 'img/Main/Giày/adidas1.jpg',
+        name: 'Custom Text 5',
+    },
+    {
+        id: 6,
+        img: 'img/Main/Giày/adidas1.jpg',
+        name: 'Custom Text 6',
+    },
+    {
+        id: 7,
+        img: 'img/Main/Giày/adidas1.jpg',
+        name: 'Custom Text 7',
+    },
+    {
+        id: 8,
+        img: 'img/Main/Giày/adidas1.jpg',
+        name: 'Custom Text 8',
+    },
+    {
+        id: 9,
+        img: 'img/Main/Giày/adidas1.jpg',
+        name: 'Custom Text 9',
+    },
+    {
+        id: 10,
+        img: 'img/Main/Giày/adidas1.jpg',
+        name: 'Custom Text 10',
+    },
+    {
+        id: 11,
+        img: 'img/Main/Giày/adidas1.jpg',
+        name: 'Custom Text 11',
+    },
+];
+
 function Slider() {
     const [startIndex, setStartIndex] = useState(0);
+    const [data, setData] = useState(VALUE);
 
     const images = [
         'img/Main/Giày/adidas1.jpg',

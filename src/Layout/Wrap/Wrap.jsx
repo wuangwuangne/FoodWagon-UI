@@ -42,9 +42,9 @@ for (let i = startValue; i <= endValue; i += 0.5) {
 function Wrap({ data }) {
     return (
         <div className="flex px-28 ">
-            <div className="w-1/4 border-r border-gray-300 bg-gray-100">
+            <div className="w-1/4  border-gray-300 bg-gray-100 h-full">
                 <div className="p-4">
-                    <h3 className="font-semibold my-5 text-[40px]">Thương hiệu</h3>
+                    <h3 className="font-semibold my-5 text-[30px]">Thương hiệu</h3>
                     <div>
                         <input className="input-local" type="checkbox" /> Adidas
                     </div>
@@ -59,7 +59,7 @@ function Wrap({ data }) {
                     </div>
                 </div>
                 <div className="p-4 border-t border-gray-300 bg-gray-100">
-                    <h3 className="font-semibold my-5 text-[40px]">Khoảng giá</h3>
+                    <h3 className="font-semibold my-5 text-[30px]">Khoảng giá</h3>
                     <div>
                         <input className="input-price" type="checkbox" /> Dưới 1.000.000đ
                     </div>
@@ -74,7 +74,7 @@ function Wrap({ data }) {
                     </div>
                 </div>
                 <div className="p-4 border-t border-gray-300 bg-gray-100">
-                    <h3 className="font-semibold my-5 text-[40px]">Kích cỡ ( nike, adidas, jordan, vans,...) </h3>
+                    <h3 className="font-semibold my-5 text-[30px]">Kích cỡ ( nike, adidas, jordan, vans,...) </h3>
                     <div className="body-size">
                         <div className="flex flex-wrap items-center justify-center ">{checkboxes}</div>
                     </div>

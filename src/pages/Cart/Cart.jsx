@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 
-function CartHistory() {
+function Cart() {
     const navigate = useNavigate();
     const continues = () => {
         navigate('/');
@@ -20,4 +20,4 @@ function CartHistory() {
     );
 }
 
-export default CartHistory;
+export default Cart;
