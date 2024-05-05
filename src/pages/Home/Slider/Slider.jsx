@@ -6,16 +6,17 @@ function Slider() {
     const [startIndex, setStartIndex] = useState(0);
 
     const images = [
-        'img/hot1.png',
-        'img/hot2.png',
-        'img/hot3.png',
-        'img/hot4.png',
-        'img/hot5.png',
-        'img/hot1.png',
-        'img/hot2.png',
-        'img/hot4.png',
-        'img/hot1.png',
-        'img/hot3.png',
+        'img/Main/Giày/adidas1.jpg',
+        'img/Main/Giày/adidas2.jpg',
+        'img/Main/Giày/adidas3.jpg',
+        'img/Main/Giày/adidas1.jpg',
+        'img/Main/Giày/adidas1.jpg',
+        'img/Main/Giày/adidas1.jpg',
+        'img/Main/Giày/adidas1.jpg',
+        'img/Main/Giày/adidas1.jpg',
+        'img/Main/Giày/adidas1.jpg',
+        'img/Main/Giày/adidas1.jpg',
+        'img/Main/Giày/adidas1.jpg',
     ];
 
     const customTexts = [
@@ -65,16 +66,16 @@ function Slider() {
                                 left: `${i * (80 + 220)}px`, // Tính toán giá trị left dựa trên index
                             }}
                         >
-                            <div className="flex flex-col items-center">
+                            <div className="flex flex-col items-center mx-2">
                                 <img
-                                    className="rounded-md"
+                                    className="rounded-md w-[300px] h-[300px] "
                                     src={images[startIndex + index]}
                                     alt={`Slide ${startIndex + index + 1}`}
                                 />
                                 <p className="mt-4">{customTexts[startIndex + index]}</p>
                                 {/* Hiển thị nội dung tùy chỉnh */}
                                 <button className="bg-orange-500 font-bold rounded-md text-white p-2 pl-24 pr-24 mt-2">
-                                    Order now
+                                    Đặt ngay
                                 </button>
                             </div>
                         </div>

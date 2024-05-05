@@ -31,7 +31,7 @@ function Header() {
                     <div className=" flex items-center font-bold text-[18px] w-[40%] justify-between bg-gradient-to-r from-black via-slate-600 to-slate-700 bg-clip-text text-transparent">
                         <Link to={'/shoes'}>SHOES</Link>
                         <Link to={'/sandals'}>SANDALS</Link>
-                        <a href="#">ACCESSORY</a>
+                        <Link to={'/accessory'}>ACCESSORY</Link>
                         <Link to={'/size'}>SIZE CHART</Link>
                     </div>
                     <div className="flex  items-center  text-primary ">
@@ -43,14 +43,14 @@ function Header() {
                             <FaUser />
                             Login
                         </button>
-                        <button
-                            onClick={click}
+                        <Link
+                            to={'/cart'}
                             className="flex items-center w-[30%] text-primary bg-[#dcdddd] justify-center py-1 px-2 rounded-lg mr-1"
                             type="submit"
                         >
                             <FaShoppingCart />
                             Giỏ
-                        </button>
+                        </Link>
                         <div className="flex items-center ">
                             <input
                                 type="text"

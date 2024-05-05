@@ -30,9 +30,9 @@ const checkboxes = [];
 
 for (let i = startValue; i <= endValue; i += 0.5) {
     checkboxes.push(
-        <div key={i} className="w-1/3">
+        <div key={i} className="pr-10">
             <div>
-                <input className="input-size" type="checkbox" value={i} />
+                <input className="input-size " type="checkbox" value={i} />
                 {i}
             </div>
         </div>,
@@ -41,10 +41,10 @@ for (let i = startValue; i <= endValue; i += 0.5) {
 
 function Wrap({ data }) {
     return (
-        <div className="flex px-28 py-[70px]">
-            <div className="w-1/4 border-r border-gray-300">
+        <div className="flex px-28 ">
+            <div className="w-1/4 border-r border-gray-300 bg-gray-100">
                 <div className="p-4">
-                    <h3 className="text-uppercase mt-5">Thương hiệu</h3>
+                    <h3 className="font-semibold my-5 text-[40px]">Thương hiệu</h3>
                     <div>
                         <input className="input-local" type="checkbox" /> Adidas
                     </div>
@@ -58,8 +58,8 @@ function Wrap({ data }) {
                         <input className="input-local" type="checkbox" /> Jordan
                     </div>
                 </div>
-                <div className="p-4 border-t border-gray-300">
-                    <h3 className="text-uppercase mt-5">Khoảng giá</h3>
+                <div className="p-4 border-t border-gray-300 bg-gray-100">
+                    <h3 className="font-semibold my-5 text-[40px]">Khoảng giá</h3>
                     <div>
                         <input className="input-price" type="checkbox" /> Dưới 1.000.000đ
                     </div>
@@ -73,10 +73,10 @@ function Wrap({ data }) {
                         <input className="input-price" type="checkbox" /> 3.000.000đ - 4.000.000đ
                     </div>
                 </div>
-                <div className="p-4 border-t border-gray-300">
-                    <h3 className="text-uppercase mt-5">Kích cỡ ( nike, adidas, jordan, vans,...) </h3>
+                <div className="p-4 border-t border-gray-300 bg-gray-100">
+                    <h3 className="font-semibold my-5 text-[40px]">Kích cỡ ( nike, adidas, jordan, vans,...) </h3>
                     <div className="body-size">
-                        <div className="content">{checkboxes}</div>
+                        <div className="flex flex-wrap items-center justify-center ">{checkboxes}</div>
                     </div>
                 </div>
             </div>
@@ -90,7 +90,6 @@ function Wrap({ data }) {
                         <ListItem data={item} key={item.id} />
                     ))}
                 </div>
-                <div className="border-t border-gray-300"></div>
             </div>
         </div>
     );

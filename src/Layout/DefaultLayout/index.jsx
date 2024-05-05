@@ -5,7 +5,7 @@ function DefaultLayout({ children }) {
     return (
         <div>
             <Header />
-            {children}
+            <div className="pt-[65px]"> {children}</div>
             <Footer />
         </div>
     );

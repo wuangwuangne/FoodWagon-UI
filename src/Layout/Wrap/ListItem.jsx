@@ -9,7 +9,7 @@ function ListItem({ data }) {
 
     return (
         <div onClick={handleClick} className="w-1/3 cursor-pointer">
-            <div className="text-center mt-10 mr-4">
+            <div className="text-center mt-10 mr-4 ml-2">
                 <Link to={`/product/${data.id}`} className="block">
                     <img src={data.img} alt="" className=" w-[380px] h-[380px] " />
                 </Link>
