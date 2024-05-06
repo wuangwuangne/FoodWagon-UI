@@ -42,7 +42,7 @@ for (let i = startValue; i <= endValue; i += 0.5) {
 function Wrap({ data }) {
     return (
         <div className="flex px-28 ">
-            <div className="w-1/4  border-gray-300 bg-gray-100 h-full">
+            <div className="w-1/4  border-gray-300 bg-gray-100 h-full ">
                 <div className="p-4">
                     <h3 className="font-semibold my-5 text-[30px]">Thương hiệu</h3>
                     <div>

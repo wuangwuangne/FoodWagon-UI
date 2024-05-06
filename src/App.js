@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { publicRoutes } from './routes';
 import DefaultLayout from './Layout/DefaultLayout';
 import { Fragment } from 'react';
+import { AuthProvider } from './components/AuthProvider';
 
 function App() {
     const docTitle = document.title;
@@ -23,9 +24,11 @@ function App() {
                                 key={index}
                                 path={route.path}
                                 element={
-                                    <Layout>
-                                        <Page />
-                                    </Layout>
+                                    <AuthProvider>
+                                        <Layout>
+                                            <Page />
+                                        </Layout>
+                                    </AuthProvider>
                                 }
                             />
                         );

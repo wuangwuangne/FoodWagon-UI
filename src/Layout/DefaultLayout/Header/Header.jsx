@@ -1,12 +1,16 @@
 // import { MdLocationOn } from 'react-icons/md';
 
+import { useContext } from 'react';
+import { CiLogout } from 'react-icons/ci';
 import { FaShoppingCart } from 'react-icons/fa';
 import { FaUser } from 'react-icons/fa';
 import { IoIosSearch } from 'react-icons/io';
 
 import { Link, useNavigate } from 'react-router-dom';
+import { AuthContext } from '~/components/AuthProvider';
 
 function Header() {
+    const { token, logOut } = useContext(AuthContext);
     const navigate = useNavigate();
 
     const click = () => {
@@ -35,22 +39,25 @@ function Header() {
                         <Link to={'/size'}>SIZE CHART</Link>
                     </div>
                     <div className="flex  items-center  text-primary ">
-                        <button
-                            onClick={click}
-                            className="flex items-center w-[30%] text-primary bg-[#dcdddd] justify-center py-1 px-2 rounded-lg mr-1"
-                            type="submit"
-                        >
-                            <FaUser />
-                            Login
-                        </button>
-                        <Link
-                            to={'/cart'}
-                            className="flex items-center w-[30%] text-primary bg-[#dcdddd] justify-center py-1 px-2 rounded-lg mr-1"
-                            type="submit"
-                        >
-                            <FaShoppingCart />
-                            Giỏ
-                        </Link>
+                        {!localStorage.token ? (
+                            <button
+                                onClick={click}
+                                className="flex items-center w-[30%] text-primary bg-[#dcdddd] justify-center py-1 px-2 rounded-lg mr-1"
+                                type="submit"
+                            >
+                                <FaUser />
+                                Login
+                            </button>
+                        ) : (
+                            <Link
+                                to={'/cart'}
+                                className="flex items-center w-[30%] text-primary bg-[#dcdddd] justify-center py-1 px-2 rounded-lg mr-1"
+                                type="submit"
+                            >
+                                <FaShoppingCart />
+                                Giỏ
+                            </Link>
+                        )}
                         <div className="flex items-center ">
                             <input
                                 type="text"
@@ -60,6 +67,11 @@ function Header() {
                             <button>
                                 <IoIosSearch />
                             </button>
+                            {localStorage.token && (
+                                <button onClick={logOut}>
+                                    <CiLogout />
+                                </button>
+                            )}
                         </div>
                     </div>
                 </div>
