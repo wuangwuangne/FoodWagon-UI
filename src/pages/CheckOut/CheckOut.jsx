@@ -1,25 +1,25 @@
-import { FaXmark } from 'react-icons/fa6';
-import { useEffect, useState } from 'react';
-import { IoMdAdd } from 'react-icons/io';
-import { FaMinus } from 'react-icons/fa';
+import { FaXmark } from "react-icons/fa6";
+import { useEffect, useState } from "react";
+import { IoMdAdd } from "react-icons/io";
+import { FaMinus } from "react-icons/fa";
 
 const VALUE = [
     {
         id: 1,
-        img: '/img/Main/Giày/adidas1.jpg',
-        name: 'Giày chạy thể thao nữ Basic-stable ANTA 822335576-3',
+        img: "/img/Main/Giày/adidas1.jpg",
+        name: "Giày chạy thể thao nữ Basic-stable ANTA 822335576-3",
         price: 1000000,
     },
     {
         id: 2,
-        img: '/img/Main/Giày/adidas1.jpg',
-        name: 'Giày chạy thể thao nữ Basic-stable ANTA 822335576-3',
+        img: "/img/Main/Giày/adidas1.jpg",
+        name: "Giày chạy thể thao nữ Basic-stable ANTA 822335576-3",
         price: 1000000,
     },
     {
         id: 3,
-        img: '/img/Main/Giày/adidas1.jpg',
-        name: 'Giày chạy thể thao nữ Basic-stable ANTA 822335576-3',
+        img: "/img/Main/Giày/adidas1.jpg",
+        name: "Giày chạy thể thao nữ Basic-stable ANTA 822335576-3",
         price: 1000000,
     },
 ];
@@ -49,8 +49,6 @@ function CheckOut() {
         });
     };
 
-    console.log(counts);
-
     return (
         <div className="px-48 py-12">
             <h1 className="text-center text-[40px]">Giỏ hàng</h1>
@@ -63,7 +61,7 @@ function CheckOut() {
                                 <p className="w-full">{item.name}</p>
                             </div>
                             <div className="flex items-center">
-                                <p className="mr-4">{item.price.toLocaleString('vi-vn')} VNĐ</p>
+                                <p className="mr-4">{item.price.toLocaleString("vi-vn")} VNĐ</p>
                                 <div className="border flex items-center">
                                     <FaMinus
                                         className="text-[10px] cursor-pointer hover:text-gray-500"
@@ -87,7 +85,7 @@ function CheckOut() {
                             {/* Calculate total price based on counts */}
                             {Object.values(counts)
                                 .reduce((acc, curr) => acc + curr, 0)
-                                .toLocaleString('vi-vn')}{' '}
+                                .toLocaleString("vi-vn")}{" "}
                             VNĐ
                             <p>(Đã bao gồm VAT nếu có)</p>
                         </div>

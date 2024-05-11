@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import Paginate from "~/components/Paginate";
 import SideBarUser from "~/components/SideBarUser";
 import { getAllProduct } from "~/services/productService";
 
-function Sandals() {
+function SearchData() {
+    const { name } = useParams();
     const [data, setData] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
     const [totalPage, setTotalPage] = useState(0);
@@ -18,22 +20,21 @@ function Sandals() {
 
     useEffect(() => {
         window.scrollTo(0, 0);
-
         getAllProduct({
             size,
             page: currentPage,
             perPage: 10,
-            category: "SANDALS",
             sortBy: selectedOption,
             trademark: trademark,
             price: searchPrice,
+            name,
         })
             .then((product) => {
                 setData(product.data);
                 setTotalPage(product.totalPage);
             })
             .catch((error) => console.log(error));
-    }, [currentPage, selectedOption, trademark, size, searchPrice]);
+    }, [currentPage, selectedOption, trademark, size, searchPrice, name]);
 
     return (
         <>
@@ -53,4 +54,4 @@ function Sandals() {
     );
 }
 
-export default Sandals;
+export default SearchData;

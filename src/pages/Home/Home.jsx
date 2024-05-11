@@ -1,13 +1,13 @@
-import { FaEye } from 'react-icons/fa';
+import { FaEye } from "react-icons/fa";
 
-import { FaWallet } from 'react-icons/fa6';
-import { MdDonutSmall } from 'react-icons/md';
-import Item from './Item';
-import Sliders from '~/pages/Home/Slider/Slider';
-import News from './News/News';
-import BannerDow from '~/pages/Home/Banner-dow';
-import Last from '~/pages/Home/Last';
-import Find from './Find';
+import { FaWallet } from "react-icons/fa6";
+import { MdDonutSmall } from "react-icons/md";
+import Item from "./Item";
+import Sliders from "~/pages/Home/Slider/Slider";
+import News from "./News/News";
+import BannerDow from "~/pages/Home/Banner-dow";
+import Last from "~/pages/Home/Last";
+import Find from "./Find";
 function Home() {
     return (
         <div>
@@ -15,7 +15,7 @@ function Home() {
             <Find />
             {/* Slide */}
             <div className="pt-32 flex flex-col items-center ">
-                <h1 className="font-bold text-[40px] ">Sản phẩm tiêu biểu</h1>
+                <h1 className="font-bold text-[40px] ">Sản phẩm mới</h1>
                 <Sliders />
             </div>
             {/* Sản phẩm khuyến mãi */}

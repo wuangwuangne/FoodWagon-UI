@@ -1,9 +1,10 @@
 import { useNavigate } from 'react-router-dom';
+import routes from '~/config/routes';
 
 function Cart() {
     const navigate = useNavigate();
     const continues = () => {
-        navigate('/');
+        navigate(routes.home);
     };
 
     return (

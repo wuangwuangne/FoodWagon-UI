@@ -1,97 +1,53 @@
-import Wrap from '../../Layout/Wrap';
-
-const data = [
-    {
-        id: 1,
-        title: '[AD1122] adidas speed run "black"',
-        price: 222222,
-        decription: '',
-        img: 'img/Main/Giày/adidas1.jpg',
-    },
-    {
-        id: 2,
-        title: '[AD1122] adidas speed run "black"',
-        price: 222222,
-        decription: '',
-        img: 'img/Main/Giày/adidas2.jpg',
-    },
-    {
-        id: 3,
-        title: '[AD1122] adidas speed run "black"',
-        price: 222222,
-        decription: '',
-        img: 'img/Main/Giày/adidas3.jpg',
-    },
-    {
-        id: 4,
-        title: '[AD1122] adidas speed run "black"',
-        price: 222222,
-        img: 'img/Main/Giày/nike 1.jpg',
-        decription: '',
-    },
-    {
-        id: 5,
-        title: '[AD1122] adidas speed run "black"',
-        price: 222222,
-        decription: '',
-        img: 'img/Main/Giày/nike2.jpg',
-    },
-    {
-        id: 6,
-        title: '[AD1122] adidas speed run "black"',
-        price: 222222,
-        decription: '',
-        img: 'img/Main/Giày/nike3.jpg',
-    },
-    {
-        id: 7,
-        title: '[AD1122] adidas speed run "black"',
-        price: 222222,
-        decription: '',
-        img: 'img/Main/Giày/adidas1.jpg',
-    },
-    {
-        id: 8,
-        title: '[AD1122] adidas speed run "black"',
-        decription: '',
-        price: 222222,
-        img: 'img/Main/Giày/adidas2.jpg',
-    },
-    {
-        id: 9,
-        title: '[AD1122] adidas speed run "black"',
-        decription: '',
-        price: 222222,
-        img: 'img/Main/Giày/adidas3.jpg',
-    },
-    {
-        id: 10,
-        title: '[AD1122] adidas speed run "black"',
-        decription: '',
-        price: 222222,
-        img: 'img/Main/Giày/nike 1.jpg',
-    },
-    {
-        id: 11,
-        title: '[AD1122] adidas speed run "black"',
-        price: 222222,
-        decription: '',
-        img: 'img/Main/Giày/nike2.jpg',
-    },
-    {
-        id: 12,
-        title: '[AD1122] adidas speed run "black"',
-        decription: '',
-        price: 222222,
-        img: 'img/Main/Giày/nike3.jpg',
-    },
-];
+import { useEffect, useState } from "react";
+import Paginate from "~/components/Paginate";
+import SideBarUser from "~/components/SideBarUser";
+import { getAllProduct } from "~/services/productService";
 
 function Shoes() {
+    const [data, setData] = useState([]);
+    const [currentPage, setCurrentPage] = useState(1);
+    const [totalPage, setTotalPage] = useState(0);
+    const [selectedOption, setSelectedOption] = useState("");
+    const [trademark, setTrademark] = useState([]);
+    const [size, setSize] = useState([]);
+    const [searchPrice, setSearchPrice] = useState("");
+
+    const handlePageChange = (selectedPage) => {
+        setCurrentPage(selectedPage.selected + 1);
+    };
+
+    useEffect(() => {
+        getAllProduct({
+            size,
+            page: currentPage,
+            perPage: 10,
+            category: "SHOES",
+            sortBy: selectedOption,
+            trademark: trademark,
+            price: searchPrice,
+        })
+            .then((product) => {
+                setData(product.data);
+                setTotalPage(product.totalPage);
+            })
+            .catch((error) => console.log(error));
+    }, [currentPage, selectedOption, trademark, size, searchPrice]);
+
     return (
-        <div>
-            <Wrap data={data} />
-        </div>
+        <>
+            <SideBarUser
+                data={data}
+                selectedOption={selectedOption}
+                setSelectedOption={setSelectedOption}
+                trademark={trademark}
+                setTrademark={setTrademark}
+                size={size}
+                setSize={setSize}
+                searchPrice={searchPrice}
+                setSearchPrice={setSearchPrice}
+            />
+            <Paginate totalPage={totalPage} handlePageChange={handlePageChange} currentPage={currentPage} />
+        </>
     );
 }
 
