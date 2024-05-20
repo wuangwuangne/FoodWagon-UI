@@ -54,8 +54,12 @@ export const AuthProvider = ({ children }) => {
         formData.append("password", data.password);
         formData.append("fullName", data.fullName);
         formData.append("email", data.email);
-        {
-            data.imageUrl && formData.append("imageUrl", data.imageUrl);
+        formData.append("phone", data.phone);
+        formData.append("gender", data.gender);
+        formData.append("address", data.address);
+
+        if (data.imageUrl) {
+            formData.append("imageUrl", data.imageUrl);
         }
 
         await userService
@@ -109,7 +113,7 @@ export const AuthProvider = ({ children }) => {
     }, []);
 
     useEffect(() => {
-        if ((role === 0 || role === 3) && location.pathname === routes.home) {
+        if (role === 0 && location.pathname === routes.home) {
             navigate(routes.dashboard);
         }
     }, [location, navigate, role]);

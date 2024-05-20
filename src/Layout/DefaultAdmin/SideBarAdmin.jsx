@@ -1,8 +1,12 @@
-import { Link, useLocation } from "react-router-dom";
+import { useContext, useEffect } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { AuthContext } from "~/components/AuthProvider";
 import routes from "~/config/routes";
 
 function SideBarAdmin() {
     const location = useLocation();
+    const navigate = useNavigate();
+    const { role, token } = useContext(AuthContext);
 
     const SIDEBAR_ITEM = [
         { title: "Trang chủ", link: routes.dashboard },
@@ -10,6 +14,12 @@ function SideBarAdmin() {
         { title: "Người dùng", link: routes.user },
         { title: "Giao dịch", link: routes.transaction },
     ];
+
+    useEffect(() => {
+        if (role !== 0 && !token) {
+            navigate(routes.home);
+        }
+    }, []);
 
     return (
         <div className="w-1/6 flex flex-col h-full border-r">

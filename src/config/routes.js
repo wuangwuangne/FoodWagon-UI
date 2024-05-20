@@ -11,10 +11,13 @@ const routes = {
     sandals: "/sandals",
     accessory: "/accessory",
     cart: "/cart",
-    checkout: "/checkout",
     policyMaintenance: "/chinh-sach-bao-hanh-bao-tri",
     policyReturn: "/chinh-sach-doi-tra-hang-va-hoan-tien",
     policySecurity: "/chinh-sach-bao-mat-thong-tin-ca-nhan",
+    paymentResult: "/payment-result",
+    profile: "/profile",
+    editProfile: "/edit-profile",
+    history: "/history",
 
     user: "/user",
     productAd: "/productAd",
@@ -23,6 +26,7 @@ const routes = {
 
     editUser: "/manager/user-edit/:id",
     newProduct: "/manager/new-product",
+    detailOrder: "/manager/transaction/detail",
 };
 
 export default routes;

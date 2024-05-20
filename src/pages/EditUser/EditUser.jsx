@@ -15,6 +15,7 @@ function EditUser() {
         gender: 0,
         imageUrl: "",
         phone: "",
+        address: "",
     });
     const [image, setImage] = useState("");
 
@@ -45,6 +46,7 @@ function EditUser() {
                     gender: user.data.gender,
                     imageUrl: user.data.imageUrl,
                     phone: user.data.phone,
+                    address: user.data.address,
                 });
                 setImage(user.data.imageUrl);
             })
@@ -120,7 +122,7 @@ function EditUser() {
                         type="radio"
                         className="form-radio"
                         name="gender"
-                        checked={data.gender == 0}
+                        checked={data.gender === 0}
                         value={0}
                         onChange={onChange}
                     />
@@ -132,7 +134,7 @@ function EditUser() {
                         className="form-radio"
                         name="gender"
                         value={1}
-                        checked={data.gender == 1}
+                        checked={data.gender === 1}
                         onChange={onChange}
                     />
                     <span className="ml-2">Nữ</span>
@@ -157,24 +159,43 @@ function EditUser() {
                 </label>
             </div>
 
-            <div className="relative z-0 w-full mb-5 ">
-                <input
-                    type="number"
-                    name="phone"
-                    id="phone"
-                    value={data.phone}
-                    onChange={onChange}
-                    className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                    placeholder=" "
-                    required
-                />
-                <label
-                    htmlFor="phone"
-                    className="peer-focus:font-medium absolute text-sm text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                >
-                    Số điện thoại
-                </label>
-            </div>
+<div className="relative z-0 w-full mb-5 ">
+    <input
+        type="number"
+        name="phone"
+        id="phone"
+        value={data.phone}
+        onChange={onChange}
+        className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+        placeholder=" "
+        required
+    />
+    <label
+        htmlFor="phone"
+        className="peer-focus:font-medium absolute text-sm text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+    >
+        Số điện thoại
+    </label>
+</div>
+
+<div className="relative z-0 w-full mb-5 ">
+    <input
+        type="text"
+        name="address"
+        id="address"
+        value={data.address}
+        onChange={onChange}
+        className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+        placeholder=" "
+        required
+    />
+    <label
+        htmlFor="address"
+        className="peer-focus:font-medium absolute text-sm text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+    >
+       Địa chỉ
+    </label>
+</div>
 
             <div className="flex flex-col mb-4">
                 <label className="mb-2 text-sm font-medium text-gray-900 border rounded-lg p-4" htmlFor="file_input">

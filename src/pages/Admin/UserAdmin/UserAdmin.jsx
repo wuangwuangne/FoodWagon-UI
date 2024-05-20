@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Commons } from "~/Common/Commons";
 import Paginate from "~/components/Paginate";
+import { getAllOrder } from "~/services/orderService";
 import { deleteUser, getUser } from "~/services/userService";
 
 function UserAdmin() {
@@ -14,13 +15,18 @@ function UserAdmin() {
         setCurrentPage(selectedPage.selected + 1);
     };
 
-    const deleteUserAdmin = (id) => {
-        deleteUser({ id })
-            .then((item) => {
-                console.log(item);
-                fetch();
-            })
-            .catch((error) => console.log(error));
+    const deleteUserAdmin = async (id) => {
+        const checkHaveOrder = await getAllOrder({ userId: id });
+        if (checkHaveOrder.data.length > 0) {
+            alert(`Người dùng vẫn còn mặt hàng`);
+        } else {
+            deleteUser({ id })
+                .then((item) => {
+                    console.log(item);
+                    fetch();
+                })
+                .catch((error) => console.log(error));
+        }
     };
 
     const fetch = useCallback(() => {
@@ -64,6 +70,9 @@ function UserAdmin() {
                                 Số điện thoại
                             </th>
                             <th scope="col" className="px-6 py-3">
+                                Địa chỉ
+                            </th>
+                            <th scope="col" className="px-6 py-3">
                                 Giới tính
                             </th>
                             <th scope="col" className="px-6 py-3">
@@ -81,6 +90,7 @@ function UserAdmin() {
                                     </th>
                                     <td className="px-6 py-4">{item.email}</td>
                                     <td className="px-6 py-4">{item.phone}</td>
+                                    <td className="px-6 py-4">{item.address}</td>
                                     <td className="px-6 py-4">{item.gender === 0 ? "Nam" : "Nữ"}</td>
                                     <td className="px-6 py-4">{Commons.formatTime(item.createdAt)}</td>
                                     <td className="py-4 px-4 text-right">

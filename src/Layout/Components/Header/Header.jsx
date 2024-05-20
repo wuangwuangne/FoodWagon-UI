@@ -17,16 +17,20 @@ function Header() {
     const MENU_ITEM = [
         {
             title: "Trang cá nhân",
-            onclick: () => navigate(""),
+            onclick: () => navigate(routes.profile),
         },
         {
             title: "Giỏ hàng",
             onclick: () => navigate(routes.cart),
-        },
+        }, {
+            title: "Đơn hàng đã mua",
+            onclick: () => navigate(routes.history),
+        }, 
         {
             title: "Đăng xuất",
             onclick: logOut,
         },
+       
     ];
 
     const onSearch = (e) => {
@@ -100,7 +104,7 @@ function Header() {
                                         <button
                                             key={item.title}
                                             onClick={item.onclick}
-                                            className="flex items-center w-full justify-between px-4 py-2 cursor-pointer hover:bg-gray-100"
+                                            className="flex items-center w-full justify-between px-2 py-2 cursor-pointer hover:bg-gray-100"
                                         >
                                             <p>{item.title}</p>
                                         </button>

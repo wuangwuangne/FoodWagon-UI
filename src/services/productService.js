@@ -3,7 +3,7 @@ import { httpRequest } from "~/utils/httprequest";
 export const newProduct = async (data) => {
     try {
         const token = await window.localStorage.getItem("token");
-        const res = await httpRequest.post("product/new-product", data, {
+        const res = await httpRequest.put("product/new-product", data, {
             headers: {
                 Authorization: "Bearer " + token,
             },

@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { Commons } from "~/Common/Commons";
 import Paginate from "~/components/Paginate";
 import routes from "~/config/routes";
+import { getAllOrder } from "~/services/orderService";
 import { deleteProduct, getAllProduct } from "~/services/productService";
 
 function ProductAdmin() {
@@ -16,14 +17,19 @@ function ProductAdmin() {
         setCurrentPage(selectedPage.selected + 1);
     };
 
-    const deleteUserAdmin = (id) => {
-        deleteProduct({ id })
-            .then(() => {
-                fetch();
-            })
-            .catch((error) => {
-                console.log(error);
-            });
+    const deleteUserAdmin = async (id) => {
+        const checkHaveOrder = await getAllOrder({ productId: id });
+        if (checkHaveOrder.data.length > 0) {
+            alert(`Người dùng vẫn còn mặt hàng`);
+        } else {
+            deleteProduct({ id })
+                .then(() => {
+                    fetch();
+                })
+                .catch((error) => {
+                    console.log(error);
+                });
+        }
     };
 
     const fetch = useCallback(() => {
