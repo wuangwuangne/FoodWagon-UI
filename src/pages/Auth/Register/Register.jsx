@@ -30,18 +30,20 @@ function RegisterForm() {
 
     return (
         <div
-            className="h-[100vh] flex justify-center items-center bg-cover bg-no-repeat  "
-            style={{ backgroundImage: "url('img/logo.png')" }}
+        className="flex justify-center items-center min-h-screen bg-gradient-to-tl from-slate-500 via-gray-300 to to-slate-700"
+            
         >
-            <img className="mr-4" src="img/login/login1.png" alt="" />
+                <img className="mr-4 w-[330px] mt-20" src="/img/login/abc1.png" alt="" />
             <form
                 onSubmit={onSubmit}
                 className="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
             >
-                <div className="relative mx-4 -mt-6 mb-4 grid h-28 place-items-center overflow-hidden rounded-xl bg-gradient-to-tl from-orange-300 to-orange-100">
-                    <h3 className="block font-sans text-3xl font-semibold leading-snug tracking-normal text-white antialiased">
+                    <div className="relative mx-4 -mt-6 mb-4 grid h-28 place-items-center overflow-hidden rounded-xl bg-gradient-to-tl from-black to-gray-500   ">
+                <h3 className="block font-sans text-3xl font-semibold leading-snug tracking-normal text-white antialiased">
                         Register
                     </h3>
+                    <img className="pb-8" src="/img/login/top.png " alt="" />
+
                 </div>
                 <div className="flex flex-col gap-4 p-6">
                     <div className="relative h-11 w-full min-w-[200px]">
@@ -165,7 +167,8 @@ function RegisterForm() {
                     </Link>
                 </p>
             </form>
-            <img className="ml-4" src="img/login/login2.png" alt="" />
+            <img className="m-4 w-[330px] " src="/img/login/abc2.png" alt="" />
+
         </div>
     );
 }

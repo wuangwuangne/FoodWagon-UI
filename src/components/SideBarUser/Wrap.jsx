@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import ListItem from "./ListItem";
 
 function SideBarUser({
@@ -179,7 +178,7 @@ function SideBarUser({
                 </div>
                 {size && (
                     <div className="p-4 border-t border-gray-300 bg-gray-100">
-                        <h3 className="font-semibold my-5 text-[30px]">Kích cỡ ( nike, adidas, jordan, vans,...) </h3>
+                        <h3 className="font-semibold my-5 text-[30px]">Kích cỡ </h3>
                         <div className="body-size">
                             <div className="flex flex-wrap items-center justify-center ">{checkboxes}</div>
                         </div>
